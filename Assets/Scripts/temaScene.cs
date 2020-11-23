@@ -8,10 +8,37 @@ public class temaScene : MonoBehaviour
 {
 
     public Button btnJogar;
+
+    [Header("Configuração da paginação")]
+    public GameObject [] btnPaginação;
+    public GameObject[] painelTemas;
+
+    private bool ativarBtnPaginacao;
+
     
     void Start()
     {
+        onOffButtons();
+
+    }
+
+    void onOffButtons()
+    {
         btnJogar.interactable = false;
+
+        if (painelTemas.Length > 1)
+        {
+           ativarBtnPaginacao = true;
+        }
+        else
+        {
+            ativarBtnPaginacao = false;
+        }
+         
+        foreach(GameObject b in btnPaginação)
+        {
+            b.SetActive(true);
+        }
     }
 
     public void jogar ()
@@ -22,6 +49,11 @@ public class temaScene : MonoBehaviour
         {
             SceneManager.LoadScene(idScene.ToString());
         }
+
+    }
+    
+    public void btnPagina (int i)
+    {
 
     }
 

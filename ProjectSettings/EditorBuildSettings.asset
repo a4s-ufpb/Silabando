@@ -23,4 +23,10 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/2.unity
     guid: 9963526dd83004c4dafd598ddb846219
+  - enabled: 1
+    path: Assets/Scenes/Tela 3.2.unity
+    guid: 9cc7985d5f47ab1488758020d19cb1ff
+  - enabled: 1
+    path: Assets/Scenes/3.unity
+    guid: e4da2df52969b1249a6b7fb1f8015750
   m_configObjects: {}

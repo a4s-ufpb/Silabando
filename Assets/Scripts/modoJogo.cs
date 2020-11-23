@@ -8,16 +8,20 @@ using UnityEngine.UI;
 
 public class modoJogo : MonoBehaviour
 {
-    [Header ("Configuração dos textos")]
-    public Text perguntaTxt;
-    public Image perguntaIMG;
+    [Header ("Configuração das Perguntas")]
+    public Text perguntaTxt; 
     public Text respostaTxt;
+    public Image perguntaIMG;
 
-    [Header ("Configuração dos textos das alternativas")]
-    public Text txtA;
-    public Text txtB;
+    [Header ("Configuração das alternativas")]
+    public Text txtA;    
+    public Text txtB;    
     public Text txtC;
+    public Image [] alternativasIMG;    
 
+    [Header ("Configuração das imagens das alternativas")]
+    public Image imageA;
+    public Image imageB;
 
     [Header ("Configuração da barra")]
     public GameObject barraTempo;
@@ -29,26 +33,39 @@ public class modoJogo : MonoBehaviour
 
     [Header ("Configuração do modo de Jogo")]
     public bool perguntasComIMG;
+    public bool alternativaComIMG;
+
+    [Header ("Configuração jogar com tempo")]
     public bool jogarComTempo;
-    public bool mostrarCorreta;
-    public bool utilizarAlternativas;
     public float tempoResponder;
-    public int qtdPiscar;
+   
+
+    [Header ("Configuração exibindo correta")]
+    public bool utilizarAlternativas;
+    public bool mostrarCorreta;
+     public int qtdPiscar;
     
-    [Header ("Configuração dos Painéis")]
+    [Header ("Configuração dos Paineis")]
     public GameObject [] paineis;
+
+    [Header ("Configuração das estrelas")]
     public GameObject [] estrela;
 
     [Header ("Configuração das perguntas")]
-    public string [] preencherCorreta;
     public string [] perguntas;
     public Sprite [] perguntasIMG;
-    public string [] correta;
 
     [Header ("Configuração das alternativas")]
-    public String [] AlternativasA;
-    public String [] AlternativasB;
-    public String [] AlternativasC;
+    public String [] alternativasA;
+    public String [] alternativasB;
+    public String [] alternativasC;
+    public Sprite [] alternativaAComIMG;
+    public Sprite [] alternativaBComIMG;
+
+    [Header ("Configuração das respostas")]
+    public string [] correta;
+    public string [] preencherCorreta;
+    
 
     private int idTema;
     private int idResponder;
@@ -77,16 +94,10 @@ public class modoJogo : MonoBehaviour
         min1Estrela = PlayerPrefs.GetInt("min1Estrela");
         min2Estrelas = PlayerPrefs.GetInt("min2Estrelas");
 
-    
         valorQuestao = 10 / (float)perguntas.Length; 
 
         paineis[0].SetActive(true);
         paineis[1].SetActive(false);
-
-        
-
-    
-
     }
 
     void Update()
@@ -104,15 +115,21 @@ public class modoJogo : MonoBehaviour
         
     }
 
-    
-    
-
     public void montarListaPerguntas() 
     {
         if(perguntasComIMG == true)
         {
             perguntaIMG.sprite = perguntasIMG[idResponder];
 
+        }
+        else if (alternativaComIMG == true)
+        {
+            perguntaTxt.text = perguntas[idResponder];
+            imageA.sprite = alternativaAComIMG[idResponder];
+            imageB.sprite = alternativaBComIMG[idResponder];
+
+            perguntaTxt.gameObject.SetActive(true);
+            respostaTxt.gameObject.SetActive(false);
         }
         else
         {
@@ -124,12 +141,12 @@ public class modoJogo : MonoBehaviour
             respostaTxt.text = preencherCorreta[idResponder];
 
         }
-            
-        if (utilizarAlternativas == true)
+
+        if (utilizarAlternativas == true && alternativaComIMG == false)
         {
-            txtA.text = AlternativasA[idResponder];
-            txtB.text = AlternativasB[idResponder];
-            txtC.text = AlternativasC[idResponder];
+            txtA.text = alternativasA[idResponder];
+            txtB.text = alternativasB[idResponder];
+            txtC.text = alternativasC[idResponder];
         }
     }
 
@@ -145,11 +162,9 @@ public class modoJogo : MonoBehaviour
         {
             print("Acertou miseravi");
             qtdAcertos += 1;
-        
            
         }
       
-        
         switch(correta[idResponder])
         {
             case "A":
@@ -162,8 +177,12 @@ public class modoJogo : MonoBehaviour
                 idBtnCorreto = 2;
                 break;
         }
-        completarPalavra();
 
+        if (alternativaComIMG == false)
+        {
+            completarPalavra();
+        }
+        
         if (mostrarCorreta == true) 
         {
             foreach(Button b in botoes)
@@ -201,25 +220,34 @@ public class modoJogo : MonoBehaviour
                 respostaTxt.gameObject.SetActive(false);
 
             }
-        if (idResponder < perguntas.Length)
-        {
-            if(perguntasComIMG == true)
+            if (idResponder < perguntas.Length)
             {
-                perguntaIMG.sprite = perguntasIMG[idResponder];
+                if(perguntasComIMG == true)
+                {
+                    perguntaIMG.sprite = perguntasIMG[idResponder];
 
-            }
-            else
-            {
-                perguntaTxt.text = perguntas[idResponder];
-                respostaTxt.text = preencherCorreta[idResponder];
+                }
+                else if (alternativaComIMG == true)
+                {
+                    perguntaTxt.text = perguntas[idResponder];
+                    imageA.sprite = alternativaAComIMG[idResponder];
+                    imageB.sprite = alternativaBComIMG[idResponder];
 
-            }
+                    perguntaTxt.gameObject.SetActive(true);
+                    respostaTxt.gameObject.SetActive(false);
+                }
+                else
+                {
+                    perguntaTxt.text = perguntas[idResponder];
+                    respostaTxt.text = preencherCorreta[idResponder];
+
+                }
                 
-            if (utilizarAlternativas == true)
+            if (utilizarAlternativas == true && alternativaComIMG == false)
             {
-                txtA.text = AlternativasA[idResponder];
-                txtB.text = AlternativasB[idResponder];
-                txtC.text = AlternativasC[idResponder];
+                txtA.text = alternativasA[idResponder];
+                txtB.text = alternativasB[idResponder];
+                txtC.text = alternativasC[idResponder];
             }
         }
         else
@@ -255,7 +283,6 @@ public class modoJogo : MonoBehaviour
             PlayerPrefs.SetInt("notaFinal_" + idTema.ToString(), (int)notaFinal);
         }
 
-        
         
         if (notaFinal == 10) 
         {
@@ -297,7 +324,6 @@ public class modoJogo : MonoBehaviour
             botoes[idBtnCorreto].image.color = Color.white;
             yield return new WaitForSeconds(0.2f);
         }
-
         foreach(Button b in botoes)
         {
             b.image.color = Color.white;
