@@ -1,0 +1,234 @@
+fileFormatVersion: 2
+guid: db1ee7ae1c1c44145a76e6cef7ffe8de
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 759343589015970043
+    second: logo-mascote_0
+  - first:
+      213: 4714194034915395513
+    second: logo-mascote_1
+  - first:
+      213: 7051165011486253019
+    second: logo-mascote_2
+  - first:
+      213: -8866091094786707688
+    second: logo-mascote_3
+  - first:
+      213: 4563497097970934797
+    second: logo-mascote_4
+  - first:
+      213: -3422540833620560617
+    second: logo-mascote_5
+  - first:
+      213: 3565681884792828459
+    second: logo-mascote_6
+  - first:
+      213: 7714973143334212211
+    second: logo-mascote_7
+  - first:
+      213: -3564533276292319009
+    second: logo-mascote_8
+  - first:
+      213: -6835277996003371180
+    second: logo-mascote_9
+  - first:
+      213: 1865402808907051238
+    second: logo-mascote_10
+  - first:
+      213: 2045883298791700636
+    second: logo-mascote_11
+  - first:
+      213: -1867260216853976527
+    second: logo-mascote_12
+  - first:
+      213: 3611910410569633173
+    second: logo-mascote_13
+  - first:
+      213: -4964007434982211132
+    second: logo-mascote_14
+  - first:
+      213: -6486909839227701273
+    second: logo-mascote_15
+  - first:
+      213: -4035445586559689988
+    second: logo-mascote_16
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: -1
+    aniso: -1
+    mipBias: -100
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 0
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: logo-mascote_2
+      rect:
+        serializedVersion: 2
+        x: 889
+        y: 827
+        width: 255
+        height: 401
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bdf1d422835cad160800000000000000
+      internalID: 7051165011486253019
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: logo-mascote_0
+      rect:
+        serializedVersion: 2
+        x: 90
+        y: 209
+        width: 992
+        height: 212
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 19, y: 2, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bf064c598fab98a00800000000000000
+      internalID: 759343589015970043
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: logo-mascote_1
+      rect:
+        serializedVersion: 2
+        x: 99
+        y: 816
+        width: 474
+        height: 329
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9b7c5657f7e2c6140800000000000000
+      internalID: 4714194034915395513
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 1
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

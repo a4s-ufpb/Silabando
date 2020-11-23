@@ -1,0 +1,692 @@
+fileFormatVersion: 2
+guid: 302083389f21dda4098ec2f38f553032
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -3677375329689571568
+    second: desafio 1 (24)_0
+  - first:
+      213: 5733215692447568604
+    second: desafio 1 (24)_1
+  - first:
+      213: -7971405352464638331
+    second: desafio 1 (24)_2
+  - first:
+      213: 2015906491297836519
+    second: desafio 1 (24)_3
+  - first:
+      213: -4537156137047072111
+    second: desafio 1 (24)_4
+  - first:
+      213: -5907224032904552665
+    second: desafio 1 (24)_5
+  - first:
+      213: 3726453668658432962
+    second: desafio 1 (24)_6
+  - first:
+      213: -4242207694367531910
+    second: desafio 1 (24)_7
+  - first:
+      213: 3646848853841762085
+    second: desafio 1 (24)_8
+  - first:
+      213: -216813849203293576
+    second: desafio 1 (24)_9
+  - first:
+      213: 3843914120438339630
+    second: desafio 1 (24)_10
+  - first:
+      213: -6779390322756679017
+    second: desafio 1 (24)_11
+  - first:
+      213: -1220539651877723899
+    second: desafio 1 (24)_12
+  - first:
+      213: -2065156320002945906
+    second: desafio 1 (24)_13
+  - first:
+      213: -4866784780407487629
+    second: desafio 1 (24)_14
+  - first:
+      213: -855339908494950059
+    second: desafio 1 (24)_15
+  - first:
+      213: 930577886084829721
+    second: desafio 1 (24)_16
+  - first:
+      213: 5140108956412080763
+    second: desafio 1 (24)_17
+  - first:
+      213: -2503844328587842909
+    second: desafio 1 (24)_18
+  - first:
+      213: -6748238017410382081
+    second: desafio 1 (24)_19
+  - first:
+      213: -1340800784625473181
+    second: desafio 1 (24)_20
+  - first:
+      213: 2498842374360632811
+    second: desafio 1 (24)_21
+  - first:
+      213: -4680160981455199115
+    second: desafio 1 (24)_22
+  - first:
+      213: 6183806999274995335
+    second: desafio 1 (24)_23
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: -1
+    aniso: -1
+    mipBias: -100
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  applyGammaDecoding: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: desafio 1 (24)_0
+      rect:
+        serializedVersion: 2
+        x: 81
+        y: 1031
+        width: 200
+        height: 219
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 01f61180f9657fcc0800000000000000
+      internalID: -3677375329689571568
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: desafio 1 (24)_1
+      rect:
+        serializedVersion: 2
+        x: 370
+        y: 1038
+        width: 200
+        height: 200
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cd25801eb49709f40800000000000000
+      internalID: 5733215692447568604
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: desafio 1 (24)_2
+      rect:
+        serializedVersion: 2
+        x: 659
+        y: 1032
+        width: 200
+        height: 200
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 58e92b5f011ef5190800000000000000
+      internalID: -7971405352464638331
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: desafio 1 (24)_3
+      rect:
+        serializedVersion: 2
+        x: 948
+        y: 1032
+        width: 200
+        height: 200
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7ed263ae540f9fb10800000000000000
+      internalID: 2015906491297836519
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: desafio 1 (24)_4
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 780
+        width: 200
+        height: 200
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 19263d04888c801c0800000000000000
+      internalID: -4537156137047072111
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: desafio 1 (24)_5
+      rect:
+        serializedVersion: 2
+        x: 281
+        y: 781
+        width: 200
+        height: 200
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 72fd2163a03550ea0800000000000000
+      internalID: -5907224032904552665
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: desafio 1 (24)_6
+      rect:
+        serializedVersion: 2
+        x: 523
+        y: 781
+        width: 200
+        height: 200
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2cb46583ed507b330800000000000000
+      internalID: 3726453668658432962
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: desafio 1 (24)_7
+      rect:
+        serializedVersion: 2
+        x: 765
+        y: 780
+        width: 200
+        height: 200
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a7c5bc10496a025c0800000000000000
+      internalID: -4242207694367531910
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: desafio 1 (24)_8
+      rect:
+        serializedVersion: 2
+        x: 998
+        y: 781
+        width: 200
+        height: 200
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 52757c2f5b53c9230800000000000000
+      internalID: 3646848853841762085
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: desafio 1 (24)_9
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 529
+        width: 200
+        height: 200
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8724adfe3f8bdfcf0800000000000000
+      internalID: -216813849203293576
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: desafio 1 (24)_10
+      rect:
+        serializedVersion: 2
+        x: 281
+        y: 529
+        width: 200
+        height: 200
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e28d5dfc683585530800000000000000
+      internalID: 3843914120438339630
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: desafio 1 (24)_11
+      rect:
+        serializedVersion: 2
+        x: 523
+        y: 522
+        width: 200
+        height: 200
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 79a0e529b64cae1a0800000000000000
+      internalID: -6779390322756679017
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: desafio 1 (24)_12
+      rect:
+        serializedVersion: 2
+        x: 765
+        y: 523
+        width: 200
+        height: 200
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 501ac8f37a5cf0fe0800000000000000
+      internalID: -1220539651877723899
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: desafio 1 (24)_13
+      rect:
+        serializedVersion: 2
+        x: 998
+        y: 525
+        width: 200
+        height: 200
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e8c4294c4471753e0800000000000000
+      internalID: -2065156320002945906
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: desafio 1 (24)_14
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 271
+        width: 200
+        height: 200
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 373c88d0705b57cb0800000000000000
+      internalID: -4866784780407487629
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: desafio 1 (24)_15
+      rect:
+        serializedVersion: 2
+        x: 282
+        y: 272
+        width: 200
+        height: 200
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 55181ff82e83124f0800000000000000
+      internalID: -855339908494950059
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: desafio 1 (24)_16
+      rect:
+        serializedVersion: 2
+        x: 525
+        y: 271
+        width: 200
+        height: 200
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9129bef28a31aec00800000000000000
+      internalID: 930577886084829721
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: desafio 1 (24)_17
+      rect:
+        serializedVersion: 2
+        x: 768
+        y: 269
+        width: 200
+        height: 200
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b72feb5ccd5555740800000000000000
+      internalID: 5140108956412080763
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: desafio 1 (24)_18
+      rect:
+        serializedVersion: 2
+        x: 998
+        y: 269
+        width: 200
+        height: 200
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3aa25ad59de804dd0800000000000000
+      internalID: -2503844328587842909
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: desafio 1 (24)_19
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 28
+        width: 200
+        height: 200
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ff6c770e6417952a0800000000000000
+      internalID: -6748238017410382081
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: desafio 1 (24)_20
+      rect:
+        serializedVersion: 2
+        x: 282
+        y: 28
+        width: 200
+        height: 200
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 36965dd4ac4846de0800000000000000
+      internalID: -1340800784625473181
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: desafio 1 (24)_21
+      rect:
+        serializedVersion: 2
+        x: 525
+        y: 28
+        width: 200
+        height: 200
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bed857966ebada220800000000000000
+      internalID: 2498842374360632811
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: desafio 1 (24)_22
+      rect:
+        serializedVersion: 2
+        x: 768
+        y: 28
+        width: 200
+        height: 200
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 57428b8426abc0fb0800000000000000
+      internalID: -4680160981455199115
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: desafio 1 (24)_23
+      rect:
+        serializedVersion: 2
+        x: 998
+        y: 28
+        width: 200
+        height: 200
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 78e3c5fd3bb41d550800000000000000
+      internalID: 6183806999274995335
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 1
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
