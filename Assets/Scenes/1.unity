@@ -1916,11 +1916,14 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   perguntaTxt: {fileID: 1878576406}
-  perguntaIMG: {fileID: 0}
   respostaTxt: {fileID: 1607433817}
+  perguntaIMG: {fileID: 0}
   txtA: {fileID: 296193913}
   txtB: {fileID: 318829753}
   txtC: {fileID: 88634608}
+  alternativasIMG: []
+  imageA: {fileID: 0}
+  imageB: {fileID: 0}
   barraTempo: {fileID: 1355681219}
   botoes:
   - {fileID: 1316295699}
@@ -1928,11 +1931,12 @@ MonoBehaviour:
   - {fileID: 78730877}
   corAcerto: {r: 0, g: 1, b: 0, a: 1}
   corErro: {r: 1, g: 0.0627451, b: 0, a: 0.42745098}
-  perguntaComImg: 0
+  perguntasComIMG: 0
+  alternativaComIMG: 0
   jogarComTempo: 1
-  mostrarCorreta: 1
-  utilizarAlternativas: 1
   tempoResponder: 10
+  utilizarAlternativas: 1
+  mostrarCorreta: 1
   qtdPiscar: 5
   paineis:
   - {fileID: 1644395682}
@@ -1941,31 +1945,33 @@ MonoBehaviour:
   - {fileID: 1855577170}
   - {fileID: 2098118139}
   - {fileID: 1494819565}
-  preencherCorreta:
-  - "BAL\xC3O"
-  - URUBU
-  - BELEZA
   perguntas:
   - "_ _ L\xC3O"
   - URU_ _
   - _ _ LEZA
-  perguntasImg: []
+  perguntasIMG: []
+  alternativasA:
+  - BA
+  - BE
+  - BI
+  alternativasB:
+  - BE
+  - BI
+  - BE
+  alternativasC:
+  - BI
+  - BU
+  - BA
+  alternativaAComIMG: []
+  alternativaBComIMG: []
   correta:
   - A
   - C
   - B
-  AlternativasA:
-  - BA
-  - BE
-  - BA
-  AlternativasB:
-  - BU
-  - BI
-  - BE
-  AlternativasC:
-  - BI
-  - BU
-  - BO
+  preencherCorreta:
+  - "BAL\xC3O"
+  - URUBU
+  - BELEZA
 --- !u!1 &1494819565
 GameObject:
   m_ObjectHideFlags: 0
