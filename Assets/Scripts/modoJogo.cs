@@ -5,6 +5,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
+using UnityEngine.EventSystems;
 
 public class modoJogo : MonoBehaviour
 {
@@ -82,8 +83,12 @@ public class modoJogo : MonoBehaviour
     
     private bool exibindoCorreta;
 
+    private soundController soundController;
+
     void Start()
     {
+        
+        soundController = FindObjectOfType(typeof(soundController)) as soundController;
 
         barraTempo.SetActive(false);
         idTema = PlayerPrefs.GetInt("idTema");
@@ -98,6 +103,7 @@ public class modoJogo : MonoBehaviour
 
         paineis[0].SetActive(true);
         paineis[1].SetActive(false);
+
     }
 
     void Update()
@@ -162,8 +168,14 @@ public class modoJogo : MonoBehaviour
         {
             print("Acertou miseravi");
             qtdAcertos += 1;
+            soundController.playAcerto();
            
         }
+        else
+        {
+            soundController.playErro();
+        }
+
       
         switch(correta[idResponder])
         {
@@ -195,7 +207,8 @@ public class modoJogo : MonoBehaviour
         }
         else
         {
-            proximaPergunta();
+            
+            Invoke("proximaPergunta()", 4.0f);
         }
     }
 
@@ -213,6 +226,8 @@ public class modoJogo : MonoBehaviour
     {
         idResponder += 1;
         tempTime = 0;
+
+        EventSystem.current.SetSelectedGameObject(null);
         
         if (perguntasComIMG == false)
             {
@@ -287,6 +302,7 @@ public class modoJogo : MonoBehaviour
         if (notaFinal == 10) 
         {
             nEstrelas = 3;
+            soundController.estrelas();
         }
         else if (notaFinal >= min2Estrelas) 
         {
@@ -303,7 +319,6 @@ public class modoJogo : MonoBehaviour
             g.SetActive(false);
             
         }
-      
                
         for (int i = 0; i < nEstrelas; i++) 
         {
@@ -315,6 +330,10 @@ public class modoJogo : MonoBehaviour
 
     }
 
+    IEnumerator aguardarProxima()
+    {
+        yield return new WaitForSeconds(0.5f);
+    }
     IEnumerator alternativaCorreta () 
     {
         for (int i = 0; i < qtdPiscar; i++)

@@ -15,17 +15,31 @@ public class temaScene : MonoBehaviour
 
     private bool ativarBtnPaginacao;
 
+    private int idPagina;
+
+    private soundController soundController;
     
     void Start()
     {
-        onOffButtons();
+        soundController = FindObjectOfType(typeof(soundController)) as soundController;
+        onOffBotoesPaineis();
 
     }
 
-    void onOffButtons()
+    void onOffBotoesPaineis()
     {
+  
         btnJogar.interactable = false;
 
+        foreach (GameObject p in painelTemas)
+        {
+            p.SetActive(false);
+
+        }
+        
+        painelTemas[0].SetActive(true);
+
+        
         if (painelTemas.Length > 1)
         {
            ativarBtnPaginacao = true;
@@ -37,12 +51,16 @@ public class temaScene : MonoBehaviour
          
         foreach(GameObject b in btnPaginação)
         {
-            b.SetActive(true);
+            b.SetActive(ativarBtnPaginacao);
         }
+        
+
     }
 
     public void jogar ()
     {
+        soundController.playbutton();
+     
         int idScene = PlayerPrefs.GetInt("idTema");
 
         if(idScene != 0)
@@ -54,7 +72,26 @@ public class temaScene : MonoBehaviour
     
     public void btnPagina (int i)
     {
+        soundController.playbutton();
+        idPagina += i;
+        if (idPagina < 0)
+        {
+            idPagina = painelTemas.Length - 1;
+        }
+        else if (idPagina >= painelTemas.Length)
+        {
+            idPagina = 0;
+        }
 
+        btnJogar.interactable = false;
+    
+
+        foreach (GameObject p in painelTemas)
+        {
+            p.SetActive(false);
+
+        }
+        painelTemas[idPagina].SetActive(true);
     }
 
 }

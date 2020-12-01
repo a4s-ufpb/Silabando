@@ -4,24 +4,51 @@ using UnityEngine;
 using UnityEngine.SceneManagement;
 
 public class bntComands : MonoBehaviour
-{
-   public void loadScene (string sceneName) 
-   {
-       SceneManager.LoadScene(sceneName);
-   }
+{   
+    public GameObject painel1;
+    public GameObject painel2;
 
-   public void closeGame ( ) 
-   {
-       Application.Quit();
-   }
+    private soundController soundController;
 
-   public void jogarNovamente()
-   {
-       int idScene = PlayerPrefs.GetInt("idTema");
+    void Start()
+    {
+        soundController = FindObjectOfType(typeof(soundController)) as soundController;
+    }
+    public void loadScene (string sceneName) 
+    {
+      
+        soundController.playbutton();
+        SceneManager.LoadScene(sceneName);
+    }
 
-        if(idScene != 0)
-        {
-            SceneManager.LoadScene(idScene.ToString());
-        }
-   }
+    public void closeGame ( ) 
+    {
+        soundController.playbutton();
+        Application.Quit();
+    }
+
+    public void jogarNovamente()
+    {
+        soundController.playbutton();
+        int idScene = PlayerPrefs.GetInt("idTema");
+
+            if(idScene != 0)
+            {
+                SceneManager.LoadScene(idScene.ToString());
+            }
+    }
+    public void configuracoes(bool onOff)
+    {   soundController.playbutton();
+        painel1.SetActive(!onOff);
+        painel2.SetActive(onOff);
+    }
+
+    public void limparProgresso()
+    {
+        soundController.playbutton();
+        PlayerPrefs.DeleteAll();
+
+    }
+   
+
 }
