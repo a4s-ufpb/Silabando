@@ -1,22 +1,52 @@
 fileFormatVersion: 2
-guid: 38a4da0ad1d984a46b82830e8013e722
+guid: 555561890858af34dbedbad9226407ac
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: -5025072064809644651
-    second: desafio f nlv2_0
+      213: 2422782151590072823
+    second: desafio f nlv2 (1)_0
   - first:
-      213: 8165072505079214501
-    second: desafio f nlv2_1
+      213: 5607521421507777182
+    second: desafio f nlv2 (1)_1
   - first:
-      213: -5620840751283170351
-    second: desafio f nlv2_2
+      213: -5444289837413923763
+    second: desafio f nlv2 (1)_2
   - first:
-      213: 900654319401651148
-    second: desafio f nlv2_3
+      213: -7898182505190225269
+    second: desafio f nlv2 (1)_3
   - first:
-      213: 6562944472655659045
-    second: desafio f nlv2_4
+      213: -8057048498383613043
+    second: desafio f nlv2 (1)_4
+  - first:
+      213: -111018068863533572
+    second: desafio f nlv2 (1)_5
+  - first:
+      213: -984801320384599904
+    second: desafio f nlv2 (1)_6
+  - first:
+      213: 7111324321807769988
+    second: desafio f nlv2 (1)_7
+  - first:
+      213: 4398994744799137297
+    second: desafio f nlv2 (1)_8
+  - first:
+      213: -4860521601410342302
+    second: desafio f nlv2 (1)_9
+  - first:
+      213: -4108070489963259921
+    second: desafio f nlv2 (1)_10
+  - first:
+      213: 3199424860612538311
+    second: desafio f nlv2 (1)_11
+  - first:
+      213: -8687732072760624335
+    second: desafio f nlv2 (1)_12
+  - first:
+      213: -4214647871835199865
+    second: desafio f nlv2 (1)_13
+  - first:
+      213: -259897391370518065
+    second: desafio f nlv2 (1)_14
   externalObjects: {}
   serializedVersion: 11
   mipmaps:
@@ -114,13 +144,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: desafio f nlv2_0
+      name: desafio f nlv2 (1)_0
       rect:
         serializedVersion: 2
         x: 44
-        y: 853
-        width: 437
-        height: 247
+        y: 867
+        width: 422
+        height: 243
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -128,20 +158,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 59d484eb49b534ab0800000000000000
-      internalID: -5025072064809644651
+      spriteID: 7f1dea9c7837f9120800000000000000
+      internalID: 2422782151590072823
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: desafio f nlv2_1
+      name: desafio f nlv2 (1)_2
       rect:
         serializedVersion: 2
-        x: 753
-        y: 897
-        width: 292
-        height: 253
+        x: 752
+        y: 907
+        width: 288
+        height: 220
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -149,20 +179,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 5a13e86de2a205170800000000000000
-      internalID: 8165072505079214501
+      spriteID: d448caaec3ff174b0800000000000000
+      internalID: -5444289837413923763
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: desafio f nlv2_2
+      name: desafio f nlv2 (1)_5
       rect:
         serializedVersion: 2
-        x: 97
-        y: 276
-        width: 384
-        height: 470
+        x: 110
+        y: 288
+        width: 362
+        height: 457
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -170,20 +200,41 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 1d31ab00e13cef1b0800000000000000
-      internalID: -5620840751283170351
+      spriteID: cfd3db197a5957ef0800000000000000
+      internalID: -111018068863533572
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: desafio f nlv2_3
+      name: desafio f nlv2 (1)_8
       rect:
         serializedVersion: 2
-        x: 729
+        x: 568
+        y: 52
+        width: 144
+        height: 143
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 11e009cd96e5c0d30800000000000000
+      internalID: 4398994744799137297
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: desafio f nlv2 (1)_11
+      rect:
+        serializedVersion: 2
+        x: 767
         y: 339
-        width: 431
-        height: 285
+        width: 386
+        height: 283
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -191,20 +242,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: ccb4b55e454cf7c00800000000000000
-      internalID: 900654319401651148
+      spriteID: 7cf2d5e95f3a66c20800000000000000
+      internalID: 3199424860612538311
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: desafio f nlv2_4
+      name: desafio f nlv2 (1)_12
       rect:
         serializedVersion: 2
-        x: 564
-        y: 44
-        width: 156
-        height: 156
+        x: 791
+        y: 12
+        width: 4
+        height: 6
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -212,8 +263,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 5200145d933441b50800000000000000
-      internalID: 6562944472655659045
+      spriteID: 13bb55b95b9fe6780800000000000000
+      internalID: -8687732072760624335
       vertices: []
       indices: 
       edges: []

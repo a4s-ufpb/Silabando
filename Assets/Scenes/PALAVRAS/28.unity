@@ -302,8 +302,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 2.04, y: -2.04}
-  m_SizeDelta: {x: 245.68, y: 100.72}
+  m_AnchoredPosition: {x: -0.3, y: -2.04}
+  m_SizeDelta: {x: 374.83398, y: 100.72}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &88634608
 MonoBehaviour:
@@ -326,10 +326,10 @@ MonoBehaviour:
       m_Calls: []
   m_FontData:
     m_Font: {fileID: 12800000, guid: 3cefb5ad9a7c81841961ed78c9f8ac09, type: 3}
-    m_FontSize: 60
+    m_FontSize: 50
     m_FontStyle: 0
-    m_BestFit: 0
-    m_MinSize: 6
+    m_BestFit: 1
+    m_MinSize: 50
     m_MaxSize: 60
     m_Alignment: 4
     m_AlignByGeometry: 0
@@ -337,7 +337,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: C
+  m_Text: "HIPOP\xD3TAMO"
 --- !u!222 &88634609
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -618,8 +618,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 2.04, y: -2.04}
-  m_SizeDelta: {x: 245.68, y: 100.72}
+  m_AnchoredPosition: {x: -0.3, y: -2}
+  m_SizeDelta: {x: 374.83398, y: 100.72}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &296193913
 MonoBehaviour:
@@ -642,10 +642,10 @@ MonoBehaviour:
       m_Calls: []
   m_FontData:
     m_Font: {fileID: 12800000, guid: 3cefb5ad9a7c81841961ed78c9f8ac09, type: 3}
-    m_FontSize: 60
+    m_FontSize: 50
     m_FontStyle: 0
-    m_BestFit: 0
-    m_MinSize: 6
+    m_BestFit: 1
+    m_MinSize: 50
     m_MaxSize: 60
     m_Alignment: 4
     m_AlignByGeometry: 0
@@ -653,7 +653,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: A
+  m_Text: "HIPOP\xD3TAMO"
 --- !u!222 &296193914
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -696,8 +696,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 2.04, y: -2.04}
-  m_SizeDelta: {x: 245.68, y: 100.72}
+  m_AnchoredPosition: {x: -0.3, y: -2.04}
+  m_SizeDelta: {x: 374.83398, y: 100.72}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &318829753
 MonoBehaviour:
@@ -720,10 +720,10 @@ MonoBehaviour:
       m_Calls: []
   m_FontData:
     m_Font: {fileID: 12800000, guid: 3cefb5ad9a7c81841961ed78c9f8ac09, type: 3}
-    m_FontSize: 60
+    m_FontSize: 50
     m_FontStyle: 0
-    m_BestFit: 0
-    m_MinSize: 6
+    m_BestFit: 1
+    m_MinSize: 50
     m_MaxSize: 60
     m_Alignment: 4
     m_AlignByGeometry: 0
@@ -731,7 +731,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: B
+  m_Text: "HIPOP\xD3TAMO"
 --- !u!222 &318829754
 CanvasRenderer:
   m_ObjectHideFlags: 0
