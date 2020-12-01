@@ -1,7 +1,76 @@
 fileFormatVersion: 2
 guid: cbb929ab93eed804897a0f3483cc6fba
 TextureImporter:
-  internalIDToNameTable: []
+  internalIDToNameTable:
+  - first:
+      213: 645176976030642000
+    second: SPF (1)_0
+  - first:
+      213: 6053509063200733647
+    second: SPF (1)_1
+  - first:
+      213: 3738677023520961406
+    second: SPF (1)_2
+  - first:
+      213: -96101139188869841
+    second: SPF (1)_3
+  - first:
+      213: -2335383333897478130
+    second: SPF (1)_4
+  - first:
+      213: -7042337532889498429
+    second: SPF (1)_5
+  - first:
+      213: -3804651265535047146
+    second: SPF (1)_6
+  - first:
+      213: 4925082808347062349
+    second: SPF (1)_7
+  - first:
+      213: 7689386264613243158
+    second: SPF (1)_8
+  - first:
+      213: 5668909272477407610
+    second: SPF (1)_9
+  - first:
+      213: 3098471192509771889
+    second: SPF (1)_10
+  - first:
+      213: -7800118774527659231
+    second: SPF (1)_11
+  - first:
+      213: -2276205973297650399
+    second: SPF (1)_12
+  - first:
+      213: -5894845271255365837
+    second: SPF (1)_13
+  - first:
+      213: -1609965073383978282
+    second: SPF (1)_14
+  - first:
+      213: -609344438980050808
+    second: SPF (1)_15
+  - first:
+      213: 2777812570369925101
+    second: SPF (1)_16
+  - first:
+      213: 7531304599946561016
+    second: SPF (1)_17
+  - first:
+      213: -4458741947536509985
+    second: SPF (1)_18
+  - first:
+      213: -3460199079226623142
+    second: SPF (1)_19
+  - first:
+      213: -1485606575863711806
+    second: SPF (1)_20
+  - first:
+      213: -7687685220071631414
+    second: SPF (1)_21
+  - first:
+      213: 5994137633319544774
+    second: SPF (1)_22
   externalObjects: {}
   serializedVersion: 11
   mipmaps:
@@ -40,7 +109,7 @@ TextureImporter:
   nPOTScale: 0
   lightmap: 0
   compressionQuality: 50
-  spriteMode: 1
+  spriteMode: 2
   spriteExtrude: 1
   spriteMeshType: 1
   alignment: 0
@@ -71,9 +140,96 @@ TextureImporter:
     overridden: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
-    sprites: []
+    sprites:
+    - serializedVersion: 2
+      name: SPF (1)_0
+      rect:
+        serializedVersion: 2
+        x: 120
+        y: 1006
+        width: 827
+        height: 211
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 05f21999a0124f800800000000000000
+      internalID: 645176976030642000
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SPF (1)_1
+      rect:
+        serializedVersion: 2
+        x: 114
+        y: 719
+        width: 1052
+        height: 219
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fc9ffac8b62620450800000000000000
+      internalID: 6053509063200733647
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SPF (1)_2
+      rect:
+        serializedVersion: 2
+        x: 426
+        y: 417
+        width: 788
+        height: 224
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e73b1ecc1f272e330800000000000000
+      internalID: 3738677023520961406
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     outline: []
     physicsShape: []
     bones: []
@@ -86,7 +242,7 @@ TextureImporter:
     secondaryTextures: []
   spritePackingTag: 
   pSDRemoveMatte: 0
-  pSDShowRemoveMatteOption: 0
+  pSDShowRemoveMatteOption: 1
   userData: 
   assetBundleName: 
   assetBundleVariant: 
