@@ -2178,15 +2178,15 @@ MonoBehaviour:
   - {fileID: -5907224032904552665, guid: 302083389f21dda4098ec2f38f553032, type: 3}
   alternativasA:
   - BUZINA
-  - BANANA
-  - BONECA
-  alternativasB:
   - BOLA
+  - BELO
+  alternativasB:
+  - BANANA
   - BALDE
-  - BARCO
-  alternativasC:
-  - BOCA
   - BALA
+  alternativasC:
+  - BOLA
+  - BARCO
   - BOLO
   alternativaAComIMG: []
   alternativaBComIMG: []

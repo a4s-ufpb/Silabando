@@ -301,16 +301,19 @@ public class modoJogo : MonoBehaviour
         
         if (notaFinal == 10) 
         {
-            nEstrelas = 3;
             soundController.estrelas();
+            nEstrelas = 3;
+            
         }
         else if (notaFinal >= min2Estrelas) 
         {
+            soundController.estrelas();
             nEstrelas = 2;
         }
         else if (notaFinal >= min1Estrela)
 
         {
+            soundController.estrelas();
             nEstrelas = 1;
         }
       
