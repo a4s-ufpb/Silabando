@@ -921,7 +921,7 @@ MonoBehaviour:
   somAcerto: {fileID: 8300000, guid: fe27989719cfcf94dbeafe6195547225, type: 3}
   somErro: {fileID: 8300000, guid: c772c6edd2da8044f8050cf9653f2bb6, type: 3}
   somBotao: {fileID: 8300000, guid: a4c65c1d49bbd2543b14c9a8a5623c79, type: 3}
-  vinheta3Estrelas: {fileID: 8300000, guid: 050f95a638a7a3a41982d1926b6727d2, type: 3}
+  vinheta3Estrelas: {fileID: 8300000, guid: 183c1ffc6a9c15f42b5a6435ba5808e0, type: 3}
 --- !u!82 &1885457270
 AudioSource:
   m_ObjectHideFlags: 0
