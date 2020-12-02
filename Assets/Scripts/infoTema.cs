@@ -4,9 +4,12 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
+using UnityEngine.SceneManagement;
 
 public class infoTema : MonoBehaviour
 {
+
+
     private temaScene temaScene;
     [Header ("Identificação do tema")]
     public int idTema;
@@ -34,11 +37,13 @@ public class infoTema : MonoBehaviour
         notaFinal = PlayerPrefs.GetInt("notaFinal_" + idTema.ToString());
 
         temaScene = FindObjectOfType (typeof(temaScene)) as temaScene;
+        
         estrelas();
         //idTemaTxt.text = idTema.ToString();
        
         btnTema = GetComponent<Button>();
         verificaNotaMinima();
+    
         
     }
 
@@ -101,4 +106,6 @@ public class infoTema : MonoBehaviour
         }
 
     }
+
+  
 }

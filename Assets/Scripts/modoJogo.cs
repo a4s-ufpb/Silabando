@@ -350,4 +350,16 @@ public class modoJogo : MonoBehaviour
         exibindoCorreta = false;
         proximaPergunta();
     }
+
+    public void next ()
+    {
+        //soundController.playbutton();
+    
+        //SceneManager.LoadScene((idTema + 1).ToString());
+
+    }
+    
+
+  
+    
 }

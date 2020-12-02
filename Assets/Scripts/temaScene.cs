@@ -94,4 +94,6 @@ public class temaScene : MonoBehaviour
         painelTemas[idPagina].SetActive(true);
     }
 
+    
+
 }

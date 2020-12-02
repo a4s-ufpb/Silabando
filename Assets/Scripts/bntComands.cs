@@ -1,30 +1,32 @@
+using System.Xml.Serialization;
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.SceneManagement;
+using UnityEngine.UI;
+
+
 
 public class bntComands : MonoBehaviour
 {   
-    public GameObject painel1;
-    public GameObject painel2;
-
+    public GameObject painel1, painel2;
+    
     private soundController soundController;
+
 
     void Start()
     {
+      
         soundController = FindObjectOfType(typeof(soundController)) as soundController;
+        
+        
     }
     public void loadScene (string sceneName) 
     {
       
         soundController.playbutton();
         SceneManager.LoadScene(sceneName);
-    }
 
-    public void closeGame ( ) 
-    {
-        soundController.playbutton();
-        Application.Quit();
     }
 
     public void jogarNovamente()
@@ -49,6 +51,9 @@ public class bntComands : MonoBehaviour
         PlayerPrefs.DeleteAll();
 
     }
+
    
+    
+
 
 }
