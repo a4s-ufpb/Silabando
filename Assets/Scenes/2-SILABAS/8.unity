@@ -2180,7 +2180,7 @@ MonoBehaviour:
   perguntasComIMG: 0
   alternativaComIMG: 0
   jogarComTempo: 1
-  tempoResponder: 10
+  tempoResponder: 15
   utilizarAlternativas: 1
   mostrarCorreta: 1
   qtdPiscar: 5
@@ -2192,32 +2192,32 @@ MonoBehaviour:
   - {fileID: 2098118139}
   - {fileID: 1494819565}
   perguntas:
-  - __COLA
-  - __CURI
-  - __MENTE
+  - __BO
+  - CHOCO__TE
+  - CAPE__
   perguntasIMG: []
   alternativasA:
-  - SE
-  - SU
-  - SI
+  - LA
+  - LE
+  - LA
   alternativasB:
-  - SU
-  - SA
-  - SE
+  - LO
+  - LI
+  - LO
   alternativasC:
-  - SA
-  - SE
-  - SO
+  - LE
+  - LA
+  - LU
   alternativaAComIMG: []
   alternativaBComIMG: []
   correta:
+  - B
   - C
   - A
-  - B
   preencherCorreta:
-  - SACOLA
-  - SUCURI
-  - SEMENTE
+  - LOBO
+  - CHOCOLATE
+  - CAPELA
 --- !u!1 &1494819565
 GameObject:
   m_ObjectHideFlags: 0

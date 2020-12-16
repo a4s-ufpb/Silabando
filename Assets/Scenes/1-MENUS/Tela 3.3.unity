@@ -695,7 +695,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!224 &263885563
 RectTransform:
   m_ObjectHideFlags: 0
@@ -731,7 +731,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ac8fdb477483376468ad8452326b0bb2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  idTema: 35
+  idTema: 25
   requerNotaMinima: 1
   notaMinimaNecessaria: 6
   idTemaTxt: {fileID: 577015023}
@@ -943,7 +943,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!224 &346810136
 RectTransform:
   m_ObjectHideFlags: 0
@@ -979,7 +979,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ac8fdb477483376468ad8452326b0bb2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  idTema: 16
+  idTema: 26
   requerNotaMinima: 1
   notaMinimaNecessaria: 6
   idTemaTxt: {fileID: 1964302325}
@@ -3194,7 +3194,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!224 &957686106
 RectTransform:
   m_ObjectHideFlags: 0
@@ -3230,7 +3230,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ac8fdb477483376468ad8452326b0bb2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  idTema: 32
+  idTema: 22
   requerNotaMinima: 1
   notaMinimaNecessaria: 6
   idTemaTxt: {fileID: 45256594}
@@ -3842,7 +3842,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ac8fdb477483376468ad8452326b0bb2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  idTema: 31
+  idTema: 21
   requerNotaMinima: 0
   notaMinimaNecessaria: 0
   idTemaTxt: {fileID: 512782990}
@@ -5175,7 +5175,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!224 &1852979645
 RectTransform:
   m_ObjectHideFlags: 0
@@ -5211,7 +5211,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ac8fdb477483376468ad8452326b0bb2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  idTema: 33
+  idTema: 23
   requerNotaMinima: 1
   notaMinimaNecessaria: 6
   idTemaTxt: {fileID: 1503257305}
@@ -5642,7 +5642,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!224 &2046987754
 RectTransform:
   m_ObjectHideFlags: 0
@@ -5678,7 +5678,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ac8fdb477483376468ad8452326b0bb2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  idTema: 34
+  idTema: 24
   requerNotaMinima: 1
   notaMinimaNecessaria: 6
   idTemaTxt: {fileID: 140686849}

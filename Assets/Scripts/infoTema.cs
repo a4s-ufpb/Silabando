@@ -39,7 +39,7 @@ public class infoTema : MonoBehaviour
         temaScene = FindObjectOfType (typeof(temaScene)) as temaScene;
         
         estrelas();
-        //idTemaTxt.text = idTema.ToString();
+        idTemaTxt.text = idTema.ToString();
        
         btnTema = GetComponent<Button>();
         verificaNotaMinima();

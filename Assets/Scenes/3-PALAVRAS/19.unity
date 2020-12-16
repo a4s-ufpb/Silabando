@@ -2156,8 +2156,8 @@ MonoBehaviour:
   corErro: {r: 0.681, g: 0.6476281, b: 0.6456651, a: 1}
   perguntasComIMG: 1
   alternativaComIMG: 0
-  jogarComTempo: 0
-  tempoResponder: 10
+  jogarComTempo: 1
+  tempoResponder: 15
   utilizarAlternativas: 1
   mostrarCorreta: 1
   qtdPiscar: 5

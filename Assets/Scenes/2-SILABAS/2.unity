@@ -2180,7 +2180,7 @@ MonoBehaviour:
   perguntasComIMG: 0
   alternativaComIMG: 0
   jogarComTempo: 1
-  tempoResponder: 10
+  tempoResponder: 20
   utilizarAlternativas: 1
   mostrarCorreta: 1
   qtdPiscar: 5
@@ -2192,32 +2192,32 @@ MonoBehaviour:
   - {fileID: 2098118139}
   - {fileID: 1494819565}
   perguntas:
-  - GO__LA
-  - CO__JA
-  - BESOU__
+  - BO__
+  - SA__LA
+  - __ELHO
   perguntasIMG: []
   alternativasA:
-  - RA
-  - RU
-  - RU
+  - CA
+  - CO
+  - CE
   alternativasB:
-  - RE
-  - RA
-  - RE
+  - CE
+  - CE
+  - CO
   alternativasC:
-  - RI
-  - RI
-  - RO
+  - CI
+  - CA
+  - CI
   alternativaAComIMG: []
   alternativaBComIMG: []
   correta:
-  - C
   - A
-  - C
+  - A
+  - B
   preencherCorreta:
-  - GORILA
-  - CORUJA
-  - BESOURO
+  - BOCA
+  - SACOLA
+  - COELHO
 --- !u!1 &1494819565
 GameObject:
   m_ObjectHideFlags: 0

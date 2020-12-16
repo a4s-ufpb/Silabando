@@ -1804,7 +1804,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b6c965934d1140f43b164ffcb6a33705, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  painel: []
+  painel1: {fileID: 0}
+  painel2: {fileID: 0}
 --- !u!4 &1432512603
 Transform:
   m_ObjectHideFlags: 0
@@ -1851,7 +1852,7 @@ MonoBehaviour:
   perguntasComIMG: 0
   alternativaComIMG: 1
   jogarComTempo: 1
-  tempoResponder: 20
+  tempoResponder: 25
   utilizarAlternativas: 1
   mostrarCorreta: 1
   qtdPiscar: 5
@@ -1863,24 +1864,24 @@ MonoBehaviour:
   - {fileID: 2098118139}
   - {fileID: 1494819565}
   perguntas:
-  - "O gato est\xE1 no sof\xE1."
-  - "A janela est\xE1 fechada."
-  - "A casa \xE9 amarela."
+  - "O le\xE3o \xE9 feroz."
+  - "O picol\xE9 \xE9 de uva."
+  - A bola caiu no mato.
   perguntasIMG: []
   alternativasA: []
   alternativasB: []
   alternativasC: []
   alternativaAComIMG:
-  - {fileID: -2399042292708135656, guid: 1cc68a021fa100945a288efb03fde8d9, type: 3}
-  - {fileID: 6992521919143308798, guid: 1cc68a021fa100945a288efb03fde8d9, type: 3}
-  - {fileID: -7653050706878335296, guid: 1cc68a021fa100945a288efb03fde8d9, type: 3}
+  - {fileID: -111018068863533572, guid: 555561890858af34dbedbad9226407ac, type: 3}
+  - {fileID: -1264116702502363390, guid: 03d6b9b8da3548b43a7f00e039e6006f, type: 3}
+  - {fileID: 2422782151590072823, guid: 555561890858af34dbedbad9226407ac, type: 3}
   alternativaBComIMG:
-  - {fileID: 6291961953491041759, guid: 1cc68a021fa100945a288efb03fde8d9, type: 3}
-  - {fileID: 1662685826970355139, guid: 1cc68a021fa100945a288efb03fde8d9, type: 3}
-  - {fileID: 8064599242635842733, guid: 1cc68a021fa100945a288efb03fde8d9, type: 3}
+  - {fileID: 3199424860612538311, guid: 555561890858af34dbedbad9226407ac, type: 3}
+  - {fileID: 7645322640658531811, guid: 03d6b9b8da3548b43a7f00e039e6006f, type: 3}
+  - {fileID: -5444289837413923763, guid: 555561890858af34dbedbad9226407ac, type: 3}
   correta:
-  - B
   - A
+  - B
   - A
   preencherCorreta: []
 --- !u!1 &1494819565

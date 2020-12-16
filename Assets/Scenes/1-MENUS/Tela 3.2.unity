@@ -915,7 +915,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ac8fdb477483376468ad8452326b0bb2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  idTema: 25
+  idTema: 17
   requerNotaMinima: 1
   notaMinimaNecessaria: 6
   idTemaTxt: {fileID: 577015023}
@@ -1163,7 +1163,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ac8fdb477483376468ad8452326b0bb2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  idTema: 26
+  idTema: 18
   requerNotaMinima: 1
   notaMinimaNecessaria: 6
   idTemaTxt: {fileID: 1964302325}
@@ -1570,7 +1570,7 @@ RectTransform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 1155376983}
-  m_RootOrder: 2
+  m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 0, y: 0}
@@ -2016,7 +2016,7 @@ RectTransform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 1155376983}
-  m_RootOrder: 3
+  m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 1, y: 0}
   m_AnchorMax: {x: 1, y: 0}
@@ -3591,7 +3591,7 @@ RectTransform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 1155376983}
-  m_RootOrder: 4
+  m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0.5}
   m_AnchorMax: {x: 0, y: 0.5}
@@ -3741,7 +3741,7 @@ RectTransform:
   - {fileID: 263885563}
   - {fileID: 346810136}
   m_Father: {fileID: 1155376983}
-  m_RootOrder: 0
+  m_RootOrder: 6
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
@@ -3841,7 +3841,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ac8fdb477483376468ad8452326b0bb2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  idTema: 22
+  idTema: 14
   requerNotaMinima: 1
   notaMinimaNecessaria: 6
   idTemaTxt: {fileID: 45256594}
@@ -4106,7 +4106,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ac8fdb477483376468ad8452326b0bb2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  idTema: 27
+  idTema: 19
   requerNotaMinima: 1
   notaMinimaNecessaria: 6
   idTemaTxt: {fileID: 760553455}
@@ -4573,13 +4573,13 @@ RectTransform:
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 0, y: 0, z: 0}
   m_Children:
-  - {fileID: 937366828}
   - {fileID: 2054516232}
   - {fileID: 429078985}
   - {fileID: 460815646}
   - {fileID: 933133961}
   - {fileID: 1348878418}
   - {fileID: 1381314220}
+  - {fileID: 937366828}
   - {fileID: 2023435966}
   m_Father: {fileID: 0}
   m_RootOrder: 1
@@ -4812,7 +4812,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ac8fdb477483376468ad8452326b0bb2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  idTema: 21
+  idTema: 13
   requerNotaMinima: 0
   notaMinimaNecessaria: 0
   idTemaTxt: {fileID: 512782990}
@@ -4985,7 +4985,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ac8fdb477483376468ad8452326b0bb2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  idTema: 28
+  idTema: 20
   requerNotaMinima: 1
   notaMinimaNecessaria: 6
   idTemaTxt: {fileID: 1150705604}
@@ -5209,7 +5209,7 @@ RectTransform:
   m_LocalScale: {x: -1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 1155376983}
-  m_RootOrder: 5
+  m_RootOrder: 4
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 1, y: 0.5}
   m_AnchorMax: {x: 1, y: 0.5}
@@ -5353,7 +5353,7 @@ RectTransform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 1155376983}
-  m_RootOrder: 6
+  m_RootOrder: 5
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 1}
   m_AnchorMax: {x: 1, y: 1}
@@ -6614,7 +6614,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ac8fdb477483376468ad8452326b0bb2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  idTema: 23
+  idTema: 15
   requerNotaMinima: 1
   notaMinimaNecessaria: 6
   idTemaTxt: {fileID: 1503257305}
@@ -7117,7 +7117,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!114 &2023435964
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -7324,7 +7324,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ac8fdb477483376468ad8452326b0bb2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  idTema: 24
+  idTema: 16
   requerNotaMinima: 1
   notaMinimaNecessaria: 6
   idTemaTxt: {fileID: 140686849}
@@ -7473,7 +7473,7 @@ RectTransform:
   m_LocalScale: {x: 1.2382, y: 1.2382, z: 1.2382}
   m_Children: []
   m_Father: {fileID: 1155376983}
-  m_RootOrder: 1
+  m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0}
   m_AnchorMax: {x: 0.5, y: 0}

@@ -2180,7 +2180,7 @@ MonoBehaviour:
   perguntasComIMG: 0
   alternativaComIMG: 0
   jogarComTempo: 1
-  tempoResponder: 10
+  tempoResponder: 20
   utilizarAlternativas: 1
   mostrarCorreta: 1
   qtdPiscar: 5
@@ -2192,22 +2192,22 @@ MonoBehaviour:
   - {fileID: 2098118139}
   - {fileID: 1494819565}
   perguntas:
-  - __NELA
-  - __MENTO
-  - CA__
+  - "__ L\xC3O"
+  - URU__
+  - __LEZA
   perguntasIMG: []
   alternativasA:
-  - JA
-  - JO
-  - JE
+  - BA
+  - BE
+  - BI
   alternativasB:
-  - JE
-  - JI
-  - JU
+  - BE
+  - BI
+  - BE
   alternativasC:
-  - JI
-  - JU
-  - JO
+  - BI
+  - BU
+  - BA
   alternativaAComIMG: []
   alternativaBComIMG: []
   correta:
@@ -2215,9 +2215,9 @@ MonoBehaviour:
   - C
   - B
   preencherCorreta:
-  - JANELA
-  - JUMENTO
-  - CAJU
+  - "BAL\xC3O"
+  - URUBU
+  - BELEZA
 --- !u!1 &1494819565
 GameObject:
   m_ObjectHideFlags: 0
