@@ -2175,7 +2175,7 @@ MonoBehaviour:
   perguntasIMG:
   - {fileID: 2498842374360632811, guid: 302083389f21dda4098ec2f38f553032, type: 3}
   - {fileID: -4680160981455199115, guid: 302083389f21dda4098ec2f38f553032, type: 3}
-  - {fileID: 6183806999274995335, guid: 302083389f21dda4098ec2f38f553032, type: 3}
+  - {fileID: 21300000, guid: 6e85564829751fd419fd8888111cf545, type: 3}
   alternativasA:
   - HOMEM
   - "HELIC\xD3PTERO"

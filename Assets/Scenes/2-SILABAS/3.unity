@@ -2193,7 +2193,7 @@ MonoBehaviour:
   - {fileID: 1494819565}
   perguntas:
   - __CE
-  - __MA
+  - __NONE
   - CA__ADO
   perguntasIMG: []
   alternativasA:
@@ -2216,7 +2216,7 @@ MonoBehaviour:
   - C
   preencherCorreta:
   - DOCE
-  - DAMA
+  - DANONE
   - CADEADO
 --- !u!1 &1494819565
 GameObject:
