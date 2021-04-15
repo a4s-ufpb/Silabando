@@ -220,7 +220,7 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls:
       - m_Target: {fileID: 1432512604}
-        m_MethodName: responder
+        m_MethodName: Answer
         m_Mode: 5
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -476,7 +476,7 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls:
       - m_Target: {fileID: 1432512602}
-        m_MethodName: loadScene
+        m_MethodName: GoToScene
         m_Mode: 5
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -1410,7 +1410,7 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls:
       - m_Target: {fileID: 1432512604}
-        m_MethodName: next
+        m_MethodName: NextQuestion
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -1556,7 +1556,7 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls:
       - m_Target: {fileID: 1432512602}
-        m_MethodName: loadScene
+        m_MethodName: GoToScene
         m_Mode: 5
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -1702,7 +1702,7 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls:
       - m_Target: {fileID: 1432512602}
-        m_MethodName: jogarNovamente
+        m_MethodName: PlayAgain
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -1934,7 +1934,7 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls:
       - m_Target: {fileID: 1432512604}
-        m_MethodName: responder
+        m_MethodName: Answer
         m_Mode: 5
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -2133,8 +2133,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b6c965934d1140f43b164ffcb6a33705, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  painel1: {fileID: 0}
-  painel2: {fileID: 0}
+  panel1: {fileID: 0}
+  panel2: {fileID: 0}
 --- !u!4 &1432512603
 Transform:
   m_ObjectHideFlags: 0
@@ -2161,63 +2161,63 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d1445193da7af214baf9b7878e26b64c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  perguntaTxt: {fileID: 1878576406}
-  respostaTxt: {fileID: 1607433817}
-  perguntaIMG: {fileID: 0}
-  txtA: {fileID: 296193913}
-  txtB: {fileID: 318829753}
-  txtC: {fileID: 88634608}
-  alternativasIMG: []
-  imageA: {fileID: 0}
-  imageB: {fileID: 0}
-  barraTempo: {fileID: 1355681219}
-  botoes:
+  questionsWithImages: 0
+  optionsWithImages: 0
+  playWithTime: 1
+  timeToAnswer: 30
+  textQuestion: {fileID: 1878576406}
+  answerText: {fileID: 1607433817}
+  questionWithImage: {fileID: 0}
+  textOptionA: {fileID: 296193913}
+  textOptionB: {fileID: 318829753}
+  textOptionC: {fileID: 88634608}
+  optionWithImage: []
+  optionImageA: {fileID: 0}
+  optionImageB: {fileID: 0}
+  timeBar: {fileID: 1355681219}
+  optionButton:
   - {fileID: 1316295699}
   - {fileID: 1815331233}
   - {fileID: 78730877}
-  corAcerto: {r: 0, g: 1, b: 0, a: 1}
-  corErro: {r: 0.509434, g: 0.4801552, b: 0.4781951, a: 0.5529412}
-  perguntasComIMG: 0
-  alternativaComIMG: 0
-  jogarComTempo: 1
-  tempoResponder: 20
-  utilizarAlternativas: 1
-  mostrarCorreta: 1
-  qtdPiscar: 5
-  paineis:
+  colorRightQuestion: {r: 0.38470095, g: 0.8584906, b: 0.42698008, a: 0}
+  colorWrongQuestion: {r: 0.9245283, g: 0.43173724, b: 0.43173724, a: 0}
+  usingOptions: 1
+  showCorrect: 1
+  qttTimesOfButtonFlashing: 5
+  panels:
   - {fileID: 1644395682}
   - {fileID: 620363851}
-  estrela:
+  star:
   - {fileID: 1855577170}
   - {fileID: 2098118139}
   - {fileID: 1494819565}
-  perguntas:
-  - BO__
-  - SA__LA
-  - __ELHO
-  perguntasIMG: []
-  alternativasA:
-  - CA
-  - CO
-  - CE
-  alternativasB:
-  - CE
-  - CE
-  - CO
-  alternativasC:
-  - CI
-  - CA
-  - CI
-  alternativaAComIMG: []
-  alternativaBComIMG: []
-  correta:
+  questions:
+  - URU__
+  - CABE__
+  - JO__
+  questionsWithImage: []
+  optionA:
+  - BA
+  - LO
+  - GO
+  optionB:
+  - BE
+  - LA
+  - GE
+  optionC:
+  - BU
+  - LU
+  - GI
+  optionWithImageA: []
+  optionWithImageB: []
+  correct:
+  - C
   - A
   - A
-  - B
-  preencherCorreta:
-  - BOCA
-  - SACOLA
-  - COELHO
+  fillCorrect:
+  - URUBU
+  - CABELO
+  - JOGO
 --- !u!1 &1494819565
 GameObject:
   m_ObjectHideFlags: 0
@@ -2748,7 +2748,7 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls:
       - m_Target: {fileID: 1432512604}
-        m_MethodName: responder
+        m_MethodName: Answer
         m_Mode: 5
         m_Arguments:
           m_ObjectArgument: {fileID: 0}

@@ -2,7 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class moveOffset : MonoBehaviour
+public class MoveOffset : MonoBehaviour
 {
     private Material material;
     public float velocX, velocY;
@@ -14,8 +14,6 @@ public class moveOffset : MonoBehaviour
         material = GetComponent<Renderer>().material;
         
     }
-
-
     void Update()
     {
         offset += add;

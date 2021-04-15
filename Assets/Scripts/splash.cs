@@ -3,18 +3,17 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 
-public class splash : MonoBehaviour
+public class Splash : MonoBehaviour
 {
-    public int tempoEspera;
+    public int waitTime;
 
     void Start()
     {
-        StartCoroutine("esperar");
+        StartCoroutine("Wait");
     }
-
-    IEnumerator esperar()
+    IEnumerator Wait()
     {
-        yield return new WaitForSeconds (tempoEspera);
+        yield return new WaitForSeconds (waitTime);
         SceneManager.LoadScene("Tela 1");
     }
 }

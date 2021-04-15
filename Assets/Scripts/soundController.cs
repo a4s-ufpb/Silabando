@@ -2,11 +2,10 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class soundController : MonoBehaviour
+public class SoundController : MonoBehaviour
 {
-
     public AudioSource audioMusic, audioFX;
-    public AudioClip somAcerto, somErro, somBotao, vinheta3Estrelas;
+    public AudioClip correctSound, wrongSound, buttonSound, threeStars;
     
     void Awake()
     {
@@ -14,30 +13,26 @@ public class soundController : MonoBehaviour
     }   
     void Start()
     {
-
         audioMusic.Play();
     }
-
-    public void playAcerto()
+    public void PlayAudioRightQuestion()
     {
-        audioFX.PlayOneShot(somAcerto);
+        audioFX.PlayOneShot(correctSound);
 
     }
-
-    public void playErro()
+    public void PlayAudioWrongQuestion()
     {
         
-        audioFX.PlayOneShot(somErro);
-    }
-    
-    public void playbutton()
-    {
-        audioFX.PlayOneShot(somBotao);
+        audioFX.PlayOneShot(wrongSound);
     }
 
-    public void estrelas()
+    public void ButtonSound()
     {
-        audioFX.PlayOneShot(vinheta3Estrelas);
+        audioFX.PlayOneShot(buttonSound);
+    }
+    public void Stars()
+    {
+        audioFX.PlayOneShot(threeStars);
     }
 
 }

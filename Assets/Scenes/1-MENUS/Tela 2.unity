@@ -229,7 +229,7 @@ GameObject:
   - component: {fileID: 422649516}
   - component: {fileID: 422649515}
   m_Layer: 5
-  m_Name: btnFrases
+  m_Name: BtnFrases
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -314,7 +314,7 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls:
       - m_Target: {fileID: 1156457673}
-        m_MethodName: loadScene
+        m_MethodName: GoToScene
         m_Mode: 5
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -619,7 +619,7 @@ GameObject:
   - component: {fileID: 818291727}
   - component: {fileID: 818291730}
   m_Layer: 5
-  m_Name: "btnS\xEDlabas"
+  m_Name: "BtnS\xEDlabas"
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -689,7 +689,7 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls:
       - m_Target: {fileID: 1156457673}
-        m_MethodName: loadScene
+        m_MethodName: GoToScene
         m_Mode: 5
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -884,9 +884,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b6c965934d1140f43b164ffcb6a33705, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  painel1: {fileID: 0}
-  painel2: {fileID: 0}
-  painel3: {fileID: 0}
+  panel1: {fileID: 0}
+  panel2: {fileID: 0}
 --- !u!4 &1156457674
 Transform:
   m_ObjectHideFlags: 0
@@ -915,7 +914,7 @@ GameObject:
   - component: {fileID: 1399301796}
   - component: {fileID: 1399301799}
   m_Layer: 5
-  m_Name: btnVoltar
+  m_Name: BtnVoltar
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -984,7 +983,7 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls:
       - m_Target: {fileID: 1156457673}
-        m_MethodName: loadScene
+        m_MethodName: GoToScene
         m_Mode: 5
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -1061,7 +1060,7 @@ GameObject:
   - component: {fileID: 2011461796}
   - component: {fileID: 2011461795}
   m_Layer: 5
-  m_Name: btnPalavras
+  m_Name: BtnPalavras
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1146,7 +1145,7 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls:
       - m_Target: {fileID: 1156457673}
-        m_MethodName: loadScene
+        m_MethodName: GoToScene
         m_Mode: 5
         m_Arguments:
           m_ObjectArgument: {fileID: 0}

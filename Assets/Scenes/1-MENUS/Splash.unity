@@ -857,8 +857,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b6c965934d1140f43b164ffcb6a33705, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  painel1: {fileID: 0}
-  painel2: {fileID: 0}
+  panel1: {fileID: 0}
+  panel2: {fileID: 0}
 --- !u!4 &1432512603
 Transform:
   m_ObjectHideFlags: 0
@@ -885,7 +885,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ca5d0d9a5ebdbbd4bb9023a097f367c9, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  tempoEspera: 2
+  waitTime: 3
 --- !u!1 &1885457268
 GameObject:
   m_ObjectHideFlags: 0
@@ -918,10 +918,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   audioMusic: {fileID: 1885457270}
   audioFX: {fileID: 164582690}
-  somAcerto: {fileID: 8300000, guid: fe27989719cfcf94dbeafe6195547225, type: 3}
-  somErro: {fileID: 8300000, guid: c772c6edd2da8044f8050cf9653f2bb6, type: 3}
-  somBotao: {fileID: 8300000, guid: a4c65c1d49bbd2543b14c9a8a5623c79, type: 3}
-  vinheta3Estrelas: {fileID: 8300000, guid: 183c1ffc6a9c15f42b5a6435ba5808e0, type: 3}
+  correctSound: {fileID: 8300000, guid: fe27989719cfcf94dbeafe6195547225, type: 3}
+  wrongSound: {fileID: 8300000, guid: c772c6edd2da8044f8050cf9653f2bb6, type: 3}
+  buttonSound: {fileID: 8300000, guid: a4c65c1d49bbd2543b14c9a8a5623c79, type: 3}
+  threeStars: {fileID: 8300000, guid: 050f95a638a7a3a41982d1926b6727d2, type: 3}
 --- !u!82 &1885457270
 AudioSource:
   m_ObjectHideFlags: 0
