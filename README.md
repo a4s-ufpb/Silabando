@@ -22,4 +22,3 @@ Estrutura do projeto:
     * 2 - SÍLABAS: contém os desafios das sílabas com seus níveis;
     * 3 - PALAVRAS: contém os desafios das palavras com seus níveis;
     * 4 - FRASES: contém os desafios das frases com seus níveis;
-
