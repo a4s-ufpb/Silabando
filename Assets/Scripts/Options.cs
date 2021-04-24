@@ -8,8 +8,8 @@ public class Options : MonoBehaviour
     public GameObject panel1, panel2;
     private SoundController soundController;
 
-    [SerializeField]
     public Slider volumeS, volumeE;
+
     void Start()
     {
         soundController = FindObjectOfType(typeof(SoundController)) as SoundController;
@@ -17,6 +17,7 @@ public class Options : MonoBehaviour
         panel1.SetActive(true);
         panel2.SetActive(false);
     }
+    
     public void Configurations(bool onOff)
     {   
         soundController.ButtonSound();
@@ -33,10 +34,9 @@ public class Options : MonoBehaviour
         float volumeSong = PlayerPrefs.GetFloat("volumeSong");
         float volumeEffects = PlayerPrefs.GetFloat("volumeEffects");
         
-     
         PlayerPrefs.DeleteAll();
 
-        PlayerPrefs.SetInt("defaultValues", 1);
+        PlayerPrefs.SetInt("defaultValue", 1);
         PlayerPrefs.SetFloat("volumeSong", volumeSong);
         PlayerPrefs.SetFloat("volumeEffects", volumeEffects);
     }    
@@ -44,22 +44,17 @@ public class Options : MonoBehaviour
     public void VolumeSong()
     {
         soundController.audioSong.volume = volumeS.value;
-
-        PlayerPrefs.SetFloat("VolumeSong", volumeS.value);
-    
+        PlayerPrefs.SetFloat("volumeSong", volumeS.value);
     }
 
     public void VolumeEffects()
     {
         soundController.audioFX.volume = volumeE.value;
-        PlayerPrefs.SetFloat("VolumeEffects", volumeE.value);
-    
+        PlayerPrefs.SetFloat("volumeEffects", volumeE.value);
     }
 
-
-   void LoadPreferences()
+    void LoadPreferences()
     {
-        
         float volumeSong = PlayerPrefs.GetFloat("volumeSong");
         float volumeEffects = PlayerPrefs.GetFloat("volumeEffects");
 

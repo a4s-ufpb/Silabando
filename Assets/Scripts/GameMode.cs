@@ -274,6 +274,9 @@ public class GameMode : MonoBehaviour
 
     }
 
+    /// <summary>
+    /// This function controls the time bar
+    /// </summary>
     void ControlTimeBar ()
     {
         if (playWithTime == true)
@@ -291,7 +294,9 @@ public class GameMode : MonoBehaviour
 
         timeBar.transform.localScale = new Vector3 (timePercentage, 1, 1);
     }
-
+    /// <summary>
+    /// This functions is the responsable for calculate the final score of the level
+    /// </summary>
     void CalculeFinalScore() 
     {
         finalScore = Mathf.RoundToInt(questionValue * qttCorrectAnswers);
@@ -333,11 +338,18 @@ public class GameMode : MonoBehaviour
         soundController.Stars();
 
     }
-
+    /// <summary>
+    /// Wait any seconds to call another question
+    /// </summary>
+    /// <returns></returns>
     IEnumerator WaitNext()
     {
         yield return new WaitForSeconds(0.5f);
     }
+    /// <summary>
+    /// This funcion shows the button flashing when the questions is correct or wrong
+    /// </summary>
+    /// <returns></returns>
     IEnumerator CorrectOption () 
     {
         for (int i = 0; i < qttTimesOfButtonFlashing; i++)

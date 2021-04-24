@@ -12,21 +12,20 @@ public class SoundController : MonoBehaviour
     {
         DontDestroyOnLoad(this.gameObject);
     }   
+
     void Start()
     {
         LoadPreferences();
         audioSong.clip = songs[0];
         audioSong.Play();
-
     }
     public void PlayAudioRightQuestion()
     {
         audioFX.PlayOneShot(correctSound);
-
     }
+
     public void PlayAudioWrongQuestion()
     {
-        
         audioFX.PlayOneShot(wrongSound);
     }
 
@@ -34,19 +33,21 @@ public class SoundController : MonoBehaviour
     {
         audioFX.PlayOneShot(buttonSound);
     }
+
     public void Stars()
     {
         audioFX.PlayOneShot(threeStars);
     }
+
 /// <summary>
 /// Verify if have registries of initial values of coonfiguration and if don't have, save the initial values;
 /// </summary>
     void LoadPreferences()
     {
     
-        if(PlayerPrefs.GetInt("defaultValues") == 0)
+        if(PlayerPrefs.GetInt("defaultValue") == 0)
         {
-            PlayerPrefs.SetInt("defaultValues", 1);
+            PlayerPrefs.SetInt("defaultValue", 1);
             PlayerPrefs.SetFloat("volumeSong", 1);
             PlayerPrefs.SetFloat("volumeEffects", 1);
         }
