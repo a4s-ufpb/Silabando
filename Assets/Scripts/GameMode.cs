@@ -6,13 +6,13 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
 using UnityEngine.EventSystems;
+using UnityEngine.SceneManagement;
 
 /// <summary>
 /// This class configure the mode of the game, the questions and answers;
 /// </summary>
 public class GameMode : MonoBehaviour
 {
-    
 
     [Header ("GAME MODE")]
     public bool questionsWithImages;
@@ -118,7 +118,6 @@ public class GameMode : MonoBehaviour
         panels[0].SetActive(true);
         panels[1].SetActive(false);
     }
-
     public void PlayButtonSound()
     {
         audioSource.PlayOneShot(audioQuestion[answerID]);
@@ -335,7 +334,7 @@ public class GameMode : MonoBehaviour
 
     }
 
-    IEnumerator aguardarProxima()
+    IEnumerator WaitNext()
     {
         yield return new WaitForSeconds(0.5f);
     }

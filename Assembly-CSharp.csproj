@@ -40,6 +40,7 @@
      <Compile Include="Assets\Scripts\ButtonPlaySound.cs" />
      <Compile Include="Assets\Scripts\GameMode.cs" />
      <Compile Include="Assets\Scripts\MoveOffset.cs" />
+     <Compile Include="Assets\Scripts\Options.cs" />
      <Compile Include="Assets\Scripts\QuitGame.cs" />
      <Compile Include="Assets\Scripts\SoundController.cs" />
      <Compile Include="Assets\Scripts\Splash.cs" />

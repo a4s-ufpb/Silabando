@@ -5,18 +5,18 @@ using UnityEngine.SceneManagement;
 using UnityEngine.UI;
 public class QuitGame : MonoBehaviour
 {
-    public GameObject painel;
+    public GameObject panel;
     private SoundController soundController;
 
     void Start()
     {
-        painel.SetActive(false);
+        panel.SetActive(false);
         soundController = FindObjectOfType(typeof(SoundController)) as SoundController;
     }
 
     public void ActivePopUp()
     {
-        painel.SetActive(true);
+        panel.SetActive(true);
     }
 
       public void CloseGame ( ) 

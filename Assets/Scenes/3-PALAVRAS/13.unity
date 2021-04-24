@@ -135,7 +135,7 @@ GameObject:
   - component: {fileID: 78730877}
   - component: {fileID: 78730876}
   m_Layer: 5
-  m_Name: btnC
+  m_Name: BtnC
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -360,7 +360,7 @@ GameObject:
   - component: {fileID: 183631825}
   - component: {fileID: 183631824}
   m_Layer: 5
-  m_Name: btnVoltar
+  m_Name: BtnPlayAgain
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -444,8 +444,8 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls:
       - m_Target: {fileID: 1432512602}
-        m_MethodName: loadScene
-        m_Mode: 5
+        m_MethodName: PlayAgain
+        m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
@@ -473,7 +473,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 6266472923241529454, guid: 3e4ffb180b7d57f4c95635d3f3fb8cf4,
+  m_Sprite: {fileID: -1771866121167276815, guid: 3e4ffb180b7d57f4c95635d3f3fb8cf4,
     type: 3}
   m_Type: 0
   m_PreserveAspect: 0
@@ -504,7 +504,7 @@ GameObject:
   - component: {fileID: 254554369}
   - component: {fileID: 254554368}
   m_Layer: 5
-  m_Name: PainelPergunta
+  m_Name: QuestionPanel
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -581,7 +581,7 @@ GameObject:
   - component: {fileID: 278239117}
   - component: {fileID: 278239119}
   m_Layer: 5
-  m_Name: Estrela2
+  m_Name: StarTwo
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -978,7 +978,7 @@ GameObject:
   - component: {fileID: 531032602}
   - component: {fileID: 531032604}
   m_Layer: 5
-  m_Name: Estrela3
+  m_Name: StarThree
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1069,7 +1069,7 @@ GameObject:
   - component: {fileID: 598684002}
   - component: {fileID: 598684001}
   m_Layer: 5
-  m_Name: Mascote
+  m_Name: Mascot
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1144,7 +1144,7 @@ GameObject:
   - component: {fileID: 620363854}
   - component: {fileID: 620363853}
   m_Layer: 5
-  m_Name: PainelResultado
+  m_Name: ResultsPanel
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1169,7 +1169,6 @@ RectTransform:
   - {fileID: 183631823}
   - {fileID: 853808239}
   - {fileID: 991041558}
-  - {fileID: 951694124}
   m_Father: {fileID: 1155376983}
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -1229,7 +1228,7 @@ GameObject:
   - component: {fileID: 853808241}
   - component: {fileID: 853808240}
   m_Layer: 5
-  m_Name: btnHome
+  m_Name: BtnHome
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1361,152 +1360,6 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 853808238}
   m_CullTransparentMesh: 1
---- !u!1 &951694123
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 951694124}
-  - component: {fileID: 951694128}
-  - component: {fileID: 951694127}
-  - component: {fileID: 951694126}
-  - component: {fileID: 951694125}
-  m_Layer: 5
-  m_Name: btnProximoLevel
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 0
---- !u!224 &951694124
-RectTransform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 951694123}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_Children: []
-  m_Father: {fileID: 620363852}
-  m_RootOrder: 8
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 1, y: 0}
-  m_AnchorMax: {x: 1, y: 0}
-  m_AnchoredPosition: {x: -90, y: 90}
-  m_SizeDelta: {x: 80, y: 80}
-  m_Pivot: {x: 0.5, y: 0.5}
---- !u!114 &951694125
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 951694123}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: cfabb0440166ab443bba8876756fdfa9, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_EffectColor: {r: 0, g: 0, b: 0, a: 0.5}
-  m_EffectDistance: {x: 1, y: -4}
-  m_UseGraphicAlpha: 1
---- !u!114 &951694126
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 951694123}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 4e29b1a8efbd4b44bb3f3716e73f07ff, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_Navigation:
-    m_Mode: 3
-    m_SelectOnUp: {fileID: 0}
-    m_SelectOnDown: {fileID: 0}
-    m_SelectOnLeft: {fileID: 0}
-    m_SelectOnRight: {fileID: 0}
-  m_Transition: 1
-  m_Colors:
-    m_NormalColor: {r: 1, g: 1, b: 1, a: 1}
-    m_HighlightedColor: {r: 0.9607843, g: 0.9607843, b: 0.9607843, a: 1}
-    m_PressedColor: {r: 0.78431374, g: 0.78431374, b: 0.78431374, a: 1}
-    m_SelectedColor: {r: 0.9607843, g: 0.9607843, b: 0.9607843, a: 1}
-    m_DisabledColor: {r: 0.78431374, g: 0.78431374, b: 0.78431374, a: 0.5019608}
-    m_ColorMultiplier: 1
-    m_FadeDuration: 0.1
-  m_SpriteState:
-    m_HighlightedSprite: {fileID: 0}
-    m_PressedSprite: {fileID: 0}
-    m_SelectedSprite: {fileID: 0}
-    m_DisabledSprite: {fileID: 0}
-  m_AnimationTriggers:
-    m_NormalTrigger: Normal
-    m_HighlightedTrigger: Highlighted
-    m_PressedTrigger: Pressed
-    m_SelectedTrigger: Selected
-    m_DisabledTrigger: Disabled
-  m_Interactable: 1
-  m_TargetGraphic: {fileID: 951694127}
-  m_OnClick:
-    m_PersistentCalls:
-      m_Calls:
-      - m_Target: {fileID: 1432512602}
-        m_MethodName: nextLevel
-        m_Mode: 1
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: Tela 3
-          m_BoolArgument: 0
-        m_CallState: 2
---- !u!114 &951694127
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 951694123}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_Material: {fileID: 0}
-  m_Color: {r: 1, g: 1, b: 1, a: 1}
-  m_RaycastTarget: 1
-  m_Maskable: 1
-  m_OnCullStateChanged:
-    m_PersistentCalls:
-      m_Calls: []
-  m_Sprite: {fileID: 7021449457718125206, guid: 3e4ffb180b7d57f4c95635d3f3fb8cf4,
-    type: 3}
-  m_Type: 0
-  m_PreserveAspect: 0
-  m_FillCenter: 1
-  m_FillMethod: 4
-  m_FillAmount: 1
-  m_FillClockwise: 1
-  m_FillOrigin: 0
-  m_UseSpriteMesh: 0
-  m_PixelsPerUnitMultiplier: 1
---- !u!222 &951694128
-CanvasRenderer:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 951694123}
-  m_CullTransparentMesh: 1
 --- !u!1 &991041557
 GameObject:
   m_ObjectHideFlags: 0
@@ -1521,7 +1374,7 @@ GameObject:
   - component: {fileID: 991041560}
   - component: {fileID: 991041559}
   m_Layer: 5
-  m_Name: btnJogarNovamente
+  m_Name: BtnNextLevel
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1605,14 +1458,14 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls:
       - m_Target: {fileID: 1432512602}
-        m_MethodName: jogarNovamente
-        m_Mode: 1
+        m_MethodName: GoToScene
+        m_Mode: 5
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
           m_IntArgument: 0
           m_FloatArgument: 0
-          m_StringArgument: 
+          m_StringArgument: Tela 3.2
           m_BoolArgument: 0
         m_CallState: 2
 --- !u!114 &991041561
@@ -1634,7 +1487,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: -1771866121167276815, guid: 3e4ffb180b7d57f4c95635d3f3fb8cf4,
+  m_Sprite: {fileID: 7021449457718125206, guid: 3e4ffb180b7d57f4c95635d3f3fb8cf4,
     type: 3}
   m_Type: 0
   m_PreserveAspect: 0
@@ -1841,7 +1694,7 @@ GameObject:
   - component: {fileID: 1316295699}
   - component: {fileID: 1316295702}
   m_Layer: 5
-  m_Name: btnA
+  m_Name: BtnA
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1988,7 +1841,7 @@ GameObject:
   - component: {fileID: 1355681224}
   - component: {fileID: 1355681223}
   m_Layer: 5
-  m_Name: barraTempo
+  m_Name: TimeBar
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -2110,8 +1963,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b6c965934d1140f43b164ffcb6a33705, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  painel1: {fileID: 0}
-  painel2: {fileID: 0}
+  panel1: {fileID: 0}
+  panel2: {fileID: 0}
 --- !u!4 &1432512603
 Transform:
   m_ObjectHideFlags: 0
@@ -2138,63 +1991,38 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d1445193da7af214baf9b7878e26b64c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  perguntaTxt: {fileID: 0}
-  respostaTxt: {fileID: 0}
-  perguntaIMG: {fileID: 1083555290}
-  txtA: {fileID: 296193913}
-  txtB: {fileID: 318829753}
-  txtC: {fileID: 88634608}
-  alternativasIMG: []
-  imageA: {fileID: 0}
-  imageB: {fileID: 0}
-  barraTempo: {fileID: 1355681219}
-  botoes:
-  - {fileID: 1316295699}
-  - {fileID: 1815331233}
-  - {fileID: 78730877}
-  corAcerto: {r: 0, g: 1, b: 0, a: 1}
-  corErro: {r: 0.681, g: 0.6476281, b: 0.6456651, a: 1}
-  perguntasComIMG: 1
-  alternativaComIMG: 0
-  jogarComTempo: 0
-  tempoResponder: 10
-  utilizarAlternativas: 1
-  mostrarCorreta: 1
-  qtdPiscar: 5
-  paineis:
-  - {fileID: 1644395682}
-  - {fileID: 620363851}
-  estrela:
-  - {fileID: 1855577170}
-  - {fileID: 2098118139}
-  - {fileID: 1494819565}
-  perguntas:
-  - "_ _ L\xC3O"
-  - URU_ _
-  - _ _ LEZA
-  perguntasIMG:
-  - {fileID: -3677375329689571568, guid: 302083389f21dda4098ec2f38f553032, type: 3}
-  - {fileID: 5733215692447568604, guid: 302083389f21dda4098ec2f38f553032, type: 3}
-  - {fileID: -7971405352464638331, guid: 302083389f21dda4098ec2f38f553032, type: 3}
-  alternativasA:
-  - ABACATE
-  - ABELHA
-  - "\xC1RVORE"
-  alternativasB:
-  - "\xC1GUA"
-  - ALICATE
-  - "AVI\xC3O"
-  alternativasC:
-  - ABACAXI
-  - ANEL
-  - APITO
-  alternativaAComIMG: []
-  alternativaBComIMG: []
-  correta:
-  - C
-  - A
-  - B
-  preencherCorreta: []
+  questionsWithImages: 0
+  optionsWithImages: 0
+  playWithTime: 0
+  timeToAnswer: 0
+  textQuestion: {fileID: 0}
+  answerText: {fileID: 0}
+  questionWithImage: {fileID: 0}
+  textOptionA: {fileID: 0}
+  textOptionB: {fileID: 0}
+  textOptionC: {fileID: 0}
+  optionWithImage: []
+  optionImageA: {fileID: 0}
+  optionImageB: {fileID: 0}
+  timeBar: {fileID: 0}
+  optionButton: []
+  colorRightQuestion: {r: 0, g: 0, b: 0, a: 0}
+  colorWrongQuestion: {r: 0, g: 0, b: 0, a: 0}
+  usingOptions: 0
+  showCorrect: 0
+  qttTimesOfButtonFlashing: 0
+  panels: []
+  star: []
+  questions: []
+  questionsWithImage: []
+  optionA: []
+  optionB: []
+  optionC: []
+  optionWithImageA: []
+  optionWithImageB: []
+  correct: []
+  fillCorrect: []
+  audioQuestion: []
 --- !u!1 &1494819565
 GameObject:
   m_ObjectHideFlags: 0
@@ -2358,7 +2186,7 @@ GameObject:
   - component: {fileID: 1635717924}
   - component: {fileID: 1635717926}
   m_Layer: 5
-  m_Name: Estrela1
+  m_Name: StarOne
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -2449,7 +2277,7 @@ GameObject:
   - component: {fileID: 1644395685}
   - component: {fileID: 1644395684}
   m_Layer: 5
-  m_Name: PainelResponder
+  m_Name: AnswerPanel
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -2530,7 +2358,7 @@ GameObject:
   - component: {fileID: 1815331233}
   - component: {fileID: 1815331232}
   m_Layer: 5
-  m_Name: btnB
+  m_Name: BtnB
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0

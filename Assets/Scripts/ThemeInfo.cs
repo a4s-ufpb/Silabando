@@ -28,26 +28,32 @@ public class ThemeInfo : MonoBehaviour
     private Button themeButton;
 
     private SoundController soundController;
-   
+
+    public static ThemeInfo themeInfo;
+    internal int pointsFromPreviousTheme;
+
     void Start()
     {
+        
+        themeInfo = this;
+        
         soundController = FindObjectOfType(typeof(SoundController)) as SoundController;
         
         finalPoints = PlayerPrefs.GetInt("finalScore_" + themeID.ToString());
 
         themeScene = FindObjectOfType (typeof(ThemeScene)) as ThemeScene;
         
-        stars();
+        Stars();
 
         textThemeID.text = themeID.ToString();
        
         themeButton = GetComponent<Button>();
 
         VerifyMinPoints();
+
     
     }
-
-    void VerifyMinPoints()
+    public void VerifyMinPoints()
     {
         themeButton.interactable = false;
 
@@ -74,7 +80,7 @@ public class ThemeInfo : MonoBehaviour
         
     }
 
-    public void stars() {
+    public void Stars() {
 
         foreach ( GameObject g in star)
         {

@@ -162,7 +162,7 @@ AudioSource:
   m_Enabled: 1
   serializedVersion: 4
   OutputAudioMixerGroup: {fileID: 0}
-  m_audioClip: {fileID: 0}
+  m_audioClip: {fileID: 8300000, guid: a4c65c1d49bbd2543b14c9a8a5623c79, type: 3}
   m_PlayOnAwake: 1
   m_Volume: 1
   m_Pitch: 1
@@ -857,8 +857,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b6c965934d1140f43b164ffcb6a33705, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  panel1: {fileID: 0}
-  panel2: {fileID: 0}
 --- !u!4 &1432512603
 Transform:
   m_ObjectHideFlags: 0
@@ -916,12 +914,14 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f821b6a7442c6ea44b64f99bf6d9df22, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  audioMusic: {fileID: 1885457270}
+  audioSong: {fileID: 307830601}
   audioFX: {fileID: 164582690}
   correctSound: {fileID: 8300000, guid: fe27989719cfcf94dbeafe6195547225, type: 3}
   wrongSound: {fileID: 8300000, guid: c772c6edd2da8044f8050cf9653f2bb6, type: 3}
   buttonSound: {fileID: 8300000, guid: a4c65c1d49bbd2543b14c9a8a5623c79, type: 3}
   threeStars: {fileID: 8300000, guid: 050f95a638a7a3a41982d1926b6727d2, type: 3}
+  songs:
+  - {fileID: 8300000, guid: b0b17367a857af243a59192232670b33, type: 3}
 --- !u!82 &1885457270
 AudioSource:
   m_ObjectHideFlags: 0

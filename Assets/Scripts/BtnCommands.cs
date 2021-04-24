@@ -9,17 +9,11 @@ using UnityEngine.UI;
 /// This class is used for control any commands of UI buttons;
 /// </summary>
 public class BtnCommands : MonoBehaviour
-{   
-    /// <summary>
-    /// In this public object, we can "power on/off" panels in UI;
-    /// </summary>
-    public GameObject panel1, panel2;
-
+{
     /// <summary>
     /// We use this for configure sounds when press any button then was configured previously;
     /// </summary>
     private SoundController soundController;
-
     /// <summary>
     /// This method is instantiating only the sound controller. In any place if it called, it will reproduces a sound;
     /// </summary>
@@ -53,19 +47,5 @@ public class BtnCommands : MonoBehaviour
     /// This method can turn on or turn off a panel;
     /// </summary>
     /// <param name="onOff">Clicking the button, activates the disabled panel and deactivates the enabled panel</param>
-    public void Configurations(bool onOff)
-    {   
-        soundController.ButtonSound();
-        panel1.SetActive(!onOff);
-        panel2.SetActive(onOff);
-    }
-
-    /// <summary>
-    /// This method clean all progress of the game (whithout previous warning);
-    /// </summary>
-    public void CleanProgress()
-    {
-        soundController.ButtonSound();
-        PlayerPrefs.DeleteAll();
-    }
+   
 }
