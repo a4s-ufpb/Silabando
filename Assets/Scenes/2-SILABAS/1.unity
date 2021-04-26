@@ -1377,7 +1377,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &620363852
 RectTransform:
   m_ObjectHideFlags: 0
@@ -2118,8 +2118,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b6c965934d1140f43b164ffcb6a33705, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  panel1: {fileID: 0}
-  panel2: {fileID: 0}
 --- !u!4 &1432512603
 Transform:
   m_ObjectHideFlags: 0
@@ -2152,7 +2150,7 @@ MonoBehaviour:
   timeToAnswer: 30
   textQuestion: {fileID: 1878576406}
   answerText: {fileID: 1607433817}
-  questionWithImage: {fileID: 0}
+  questionImage: {fileID: 0}
   textOptionA: {fileID: 296193913}
   textOptionB: {fileID: 318829753}
   textOptionC: {fileID: 88634608}
@@ -2178,35 +2176,35 @@ MonoBehaviour:
   - {fileID: 1494819565}
   questions:
   - "_ _L\xC3O"
-  - _ _LEZA
   - URU_ _
-  questionsWithImage: []
+  - _ _LEZA
+  questionsImage: []
   optionA:
   - BA
-  - BU
-  - BU
-  optionB:
+  - BE
   - BI
-  - BO
-  - BA
+  optionB:
+  - BE
+  - BI
+  - BE
   optionC:
+  - BI
   - BU
-  - BE
-  - BE
+  - BA
   optionWithImageA: []
   optionWithImageB: []
   correct:
   - A
   - C
-  - A
+  - B
   fillCorrect:
   - "BAL\xC3O"
-  - BELEZA
   - URUBU
+  - BELEZA
   audioQuestion:
   - {fileID: 8300000, guid: 81d71118d6cc86e44a9fbe0cb5802726, type: 3}
-  - {fileID: 8300000, guid: e28b4b66a928a1a4398125279b46fa7e, type: 3}
   - {fileID: 8300000, guid: b0c92ee65f283d64a9c09781d134e635, type: 3}
+  - {fileID: 8300000, guid: e28b4b66a928a1a4398125279b46fa7e, type: 3}
 --- !u!82 &1432512605
 AudioSource:
   m_ObjectHideFlags: 0
@@ -2672,7 +2670,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!224 &1644395683
 RectTransform:
   m_ObjectHideFlags: 0

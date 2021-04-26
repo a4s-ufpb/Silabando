@@ -24,7 +24,7 @@ public class GameMode : MonoBehaviour
     [Header ("OBJECTS OF QUESTIONS")]
     public Text textQuestion; 
     public Text answerText;
-    public Image questionWithImage;
+    public Image questionImage;
 
 
     [Header ("OBJECTS OF OPTIONS")]
@@ -67,7 +67,7 @@ public class GameMode : MonoBehaviour
 
     [Header ("QUESTIONS")]
     public string [] questions;
-    public Sprite [] questionsWithImage;
+    public Sprite [] questionsImage;
 
 
     [Header ("OPTIONS")]
@@ -81,9 +81,13 @@ public class GameMode : MonoBehaviour
     public string [] correct;
     public string [] fillCorrect;
 
+    
+    [SerializeField]
+    public AudioClip [] audioQuestion;
+    private AudioSource audioSource;    
 
     public static GameMode gameMode;
-    
+
     private int themeID;
     private int answerID;
     private int minOneStar;
@@ -98,11 +102,9 @@ public class GameMode : MonoBehaviour
     private bool showingCorrect;
     private SoundController soundController;
 
-    
-    private AudioSource audioSource;    
-    [SerializeField]
-    public AudioClip [] audioQuestion;
-
+    /// <summary>
+    /// This function starts any inicial configurations of the game.
+    /// </summary>
     void Start()
     {
         gameMode = this;
@@ -118,30 +120,37 @@ public class GameMode : MonoBehaviour
         panels[0].SetActive(true);
         panels[1].SetActive(false);
     }
+    /// <summary>
+    /// This function is responsable for play the audio of the word on challenge "Sílabas".
+    /// </summary>
     public void PlayButtonSound()
     {
         audioSource.PlayOneShot(audioQuestion[answerID]);
     }
 
+    /// <summary>
+    /// This function is responsable for update the time bar if the game mode is configured to play with time.
+    /// </summary>
     void Update()
     {
         if (playWithTime == true && showingCorrect == false) 
         {
             countTime += Time.deltaTime;
-
             ControlTimeBar();
 
             if (countTime >= timeToAnswer) NextQuestion();
         }
         
     }
-   
+
+    /// <summary>
+    /// This function ís responsable for create a list of questions and verify if the question is text or image.
+    /// </summary>   
     public void CreateQuestionsList() 
     {
         if(questionsWithImages == true)
-        {
-            questionWithImage.sprite = questionsWithImage[answerID];
-
+        { 
+            questionImage.sprite = questionsImage[answerID];
         }
         else if (optionsWithImages == true)
         {
@@ -158,7 +167,6 @@ public class GameMode : MonoBehaviour
             textQuestion.text = questions[answerID];
             answerText.text = fillCorrect[answerID];
         }
-
         if (usingOptions == true && optionsWithImages == false)
         {
             textOptionA.text = optionA[answerID];
@@ -167,9 +175,12 @@ public class GameMode : MonoBehaviour
         }
     }
 
+    /// <summary>
+    /// This function is responsable for process the answer of the player.
+    /// </summary>
+    /// <param name="option">Configure the buttons of options to check the correct answer.</param>
     public void Answer (string option) 
     {
-        
         if (showingCorrect == true) 
         {
             return;
@@ -197,8 +208,10 @@ public class GameMode : MonoBehaviour
                 break;
         }
 
-        if (optionsWithImages == false) CompleteWord();
-        
+        if (optionsWithImages == false) 
+        {
+            CompleteWord();
+        }
         if (showCorrect == true) 
         {
             foreach(Button b in optionButton)
@@ -215,6 +228,9 @@ public class GameMode : MonoBehaviour
         }
     }
 
+    /// <summary>
+    /// This funcion is responsable for complete the word on challenge "Sílabas"
+    /// </summary>
     void CompleteWord()
     {
         if (questionsWithImages == false)
@@ -224,6 +240,9 @@ public class GameMode : MonoBehaviour
         }
     }
 
+    /// <summary>
+    /// This function call the next question
+    /// </summary>
     public void NextQuestion()
     {
         answerID += 1;
@@ -232,40 +251,13 @@ public class GameMode : MonoBehaviour
         EventSystem.current.SetSelectedGameObject(null);
         
         if (questionsWithImages == false)
-            {
-                textQuestion.gameObject.SetActive(true);
-                answerText.gameObject.SetActive(false);
-            }
-            if (answerID < questions.Length)
-            {
-                if(questionsWithImages == true)
-                {
-                    questionWithImage.sprite = questionsWithImage[answerID];
-
-                }
-                else if (optionsWithImages == true)
-                {
-                    textQuestion.text = questions[answerID];
-                    optionImageA.sprite = optionWithImageA[answerID];
-                    optionImageB.sprite = optionWithImageB[answerID];
-
-                    textQuestion.gameObject.SetActive(true);
-                    answerText.gameObject.SetActive(false);
-                }
-                else
-                {
-                    textQuestion.text = questions[answerID];
-                    answerText.text = fillCorrect[answerID];
-
-                }
-                
-            if (usingOptions == true && optionsWithImages == false)
-            {
-                textOptionA.text = optionA[answerID];
-                textOptionB.text = optionB[answerID];
-                textOptionC.text = optionC[answerID];
-
-            }
+        {
+            textQuestion.gameObject.SetActive(true);
+            answerText.gameObject.SetActive(false);
+        }
+        if (answerID < questions.Length)
+        {
+            CreateQuestionsList();
         }
         else
         {
@@ -283,17 +275,15 @@ public class GameMode : MonoBehaviour
         {
             timeBar.SetActive(true);
         }
-
         timePercentage = ((countTime - timeToAnswer) / timeToAnswer) * -1;
 
         if (timePercentage < 0) 
         { 
             timePercentage = 0;
-        
         }
-
         timeBar.transform.localScale = new Vector3 (timePercentage, 1, 1);
     }
+
     /// <summary>
     /// This functions is the responsable for calculate the final score of the level
     /// </summary>
@@ -301,36 +291,17 @@ public class GameMode : MonoBehaviour
     {
         finalScore = Mathf.RoundToInt(questionValue * qttCorrectAnswers);
 
-        if (finalScore > PlayerPrefs.GetInt("finalScore_" + themeID.ToString()))
-        {
-            PlayerPrefs.SetInt("finalScore_" + themeID.ToString(), (int)finalScore);
-        }
+        if (finalScore > PlayerPrefs.GetInt("finalScore_" + themeID.ToString()))    PlayerPrefs.SetInt("finalScore_" + themeID.ToString(), (int)finalScore);
         
-        if (finalScore == 10) 
-        {
-            numberOfStars = 3;
-            
-        }
-        else if (finalScore >= minTwoStars) 
-        {
-            numberOfStars = 2;
-        }
-        else if (finalScore >= minOneStar)
+        if (finalScore == 10) numberOfStars = 3;  
 
-        {
-            numberOfStars = 1;
-        }
+        else if (finalScore >= minTwoStars) numberOfStars = 2;
+
+        else if (finalScore >= minOneStar) numberOfStars = 1;
       
-        foreach ( GameObject g in star)
-        {
-            g.SetActive(false);
-            
-        }
-               
-        for (int i = 0; i < numberOfStars; i++) 
-        {
-            star[i].SetActive(true);
-        }
+        foreach ( GameObject g in star) g.SetActive(false);
+        
+        for (int i = 0; i < numberOfStars; i++) star[i].SetActive(true);
 
         panels[0].SetActive(false);
         panels[1].SetActive(true);
@@ -346,6 +317,7 @@ public class GameMode : MonoBehaviour
     {
         yield return new WaitForSeconds(0.5f);
     }
+    
     /// <summary>
     /// This funcion shows the button flashing when the questions is correct or wrong
     /// </summary>

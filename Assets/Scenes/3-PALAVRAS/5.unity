@@ -2147,11 +2147,14 @@ MonoBehaviour:
   timeToAnswer: 30
   textQuestion: {fileID: 0}
   answerText: {fileID: 0}
-  questionImage: {fileID: 0}
+  questionImage: {fileID: 931965289}
   textOptionA: {fileID: 296193913}
   textOptionB: {fileID: 318829753}
   textOptionC: {fileID: 88634608}
-  optionWithImage: []
+  optionWithImage:
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
   optionImageA: {fileID: 0}
   optionImageB: {fileID: 0}
   timeBar: {fileID: 1355681219}
@@ -2171,7 +2174,10 @@ MonoBehaviour:
   - {fileID: 1855577170}
   - {fileID: 2098118139}
   - {fileID: 1494819565}
-  questions: []
+  questions:
+  - 
+  - 
+  - 
   questionsImage:
   - {fileID: -3677375329689571568, guid: 302083389f21dda4098ec2f38f553032, type: 3}
   - {fileID: 5733215692447568604, guid: 302083389f21dda4098ec2f38f553032, type: 3}
