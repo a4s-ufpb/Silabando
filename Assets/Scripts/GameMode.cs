@@ -20,12 +20,10 @@ public class GameMode : MonoBehaviour
     public bool playWithTime;
     public float timeToAnswer;
 
-
     [Header ("OBJECTS OF QUESTIONS")]
     public Text textQuestion; 
     public Text answerText;
     public Image questionImage;
-
 
     [Header ("OBJECTS OF OPTIONS")]
     public Text textOptionA;    
@@ -35,40 +33,32 @@ public class GameMode : MonoBehaviour
     [Header ("OBJECTS OF OPTIONS WITH IMAGE")]
     public Image [] optionWithImage;  
 
-
     [Header ("IMAGES OF OPTIONS")]
     public Image optionImageA;
     public Image optionImageB;
 
-
     [Header ("OBJECT OF TIME BAR")]
     public GameObject timeBar;
-
 
     [Header ("BUTTONS OF OPTIONS")]
     public Button [] optionButton;
     public Color colorRightQuestion;
     public Color colorWrongQuestion;
 
-
     [Header ("SHOWING CORRECT")]
     public bool usingOptions;
     public bool showCorrect;
     public int qttTimesOfButtonFlashing;
-
     
     [Header ("PANELS OF PLAY AND SCORE")]
     public GameObject [] panels;
 
-
     [Header ("OFF STARS OFF SCORE")]
     public GameObject [] star;
-
 
     [Header ("QUESTIONS")]
     public string [] questions;
     public Sprite [] questionsImage;
-
 
     [Header ("OPTIONS")]
     public String [] optionA;
@@ -80,7 +70,6 @@ public class GameMode : MonoBehaviour
     [Header ("CORRECT ANSWERS")]
     public string [] correct;
     public string [] fillCorrect;
-
     
     [SerializeField]
     public AudioClip [] audioQuestion;

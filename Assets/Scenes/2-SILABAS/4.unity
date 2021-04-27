@@ -198,8 +198,8 @@ MonoBehaviour:
   m_Colors:
     m_NormalColor: {r: 1, g: 1, b: 1, a: 1}
     m_HighlightedColor: {r: 1, g: 1, b: 1, a: 1}
-    m_PressedColor: {r: 0.78431374, g: 0.78431374, b: 0.78431374, a: 1}
-    m_SelectedColor: {r: 0.2770114, g: 0.5178344, b: 0.7830189, a: 1}
+    m_PressedColor: {r: 1, g: 1, b: 1, a: 1}
+    m_SelectedColor: {r: 0.47843137, g: 0.6784314, b: 0.8980392, a: 1}
     m_DisabledColor: {r: 0.78431374, g: 0.78431374, b: 0.78431374, a: 0.57254905}
     m_ColorMultiplier: 1
     m_FadeDuration: 0.1
@@ -1897,7 +1897,7 @@ MonoBehaviour:
     m_NormalColor: {r: 1, g: 1, b: 1, a: 1}
     m_HighlightedColor: {r: 1, g: 1, b: 1, a: 1}
     m_PressedColor: {r: 1, g: 1, b: 1, a: 1}
-    m_SelectedColor: {r: 0.2770114, g: 0.5178344, b: 0.7830189, a: 1}
+    m_SelectedColor: {r: 0.47843137, g: 0.6784314, b: 0.8980392, a: 1}
     m_DisabledColor: {r: 0.78431374, g: 0.78431374, b: 0.78431374, a: 0.5019608}
     m_ColorMultiplier: 1
     m_FadeDuration: 0.1
@@ -2162,8 +2162,8 @@ MonoBehaviour:
   - {fileID: 1316295699}
   - {fileID: 1815331233}
   - {fileID: 78730877}
-  colorRightQuestion: {r: 0.38470095, g: 0.8584906, b: 0.42698008, a: 0}
-  colorWrongQuestion: {r: 0.9245283, g: 0.43173724, b: 0.43173724, a: 0}
+  colorRightQuestion: {r: 0.38470095, g: 0.8584906, b: 0.42698008, a: 1}
+  colorWrongQuestion: {r: 0.9245283, g: 0.43173724, b: 0.43173724, a: 1}
   usingOptions: 1
   showCorrect: 1
   qttTimesOfButtonFlashing: 5
@@ -2810,8 +2810,8 @@ MonoBehaviour:
   m_Colors:
     m_NormalColor: {r: 1, g: 1, b: 1, a: 1}
     m_HighlightedColor: {r: 1, g: 1, b: 1, a: 1}
-    m_PressedColor: {r: 0.78431374, g: 0.78431374, b: 0.78431374, a: 1}
-    m_SelectedColor: {r: 0.2770114, g: 0.5178344, b: 0.7830189, a: 1}
+    m_PressedColor: {r: 1, g: 1, b: 1, a: 1}
+    m_SelectedColor: {r: 0.47843137, g: 0.6784314, b: 0.8980392, a: 1}
     m_DisabledColor: {r: 0.78431374, g: 0.78431374, b: 0.78431374, a: 0.5019608}
     m_ColorMultiplier: 1
     m_FadeDuration: 0.1
