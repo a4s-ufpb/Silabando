@@ -6,16 +6,15 @@ using UnityEngine.SceneManagement;
 using UnityEngine.UI;
 
 /// <summary>
-/// This class is used for control any commands of UI buttons;
+/// This class is used for control any commands of UI buttons.
 /// </summary>
 public class BtnCommands : MonoBehaviour
 {
-    /// <summary>
-    /// We use this for configure sounds when press any button then was configured previously;
-    /// </summary>
     private SoundController soundController;
+    
     /// <summary>
-    /// This method is instantiating only the sound controller. In any place if it called, it will reproduces a sound;
+    /// This method is instantiating only the sound controller. 
+    /// In any place if it called, it will reproduces a sound.
     /// </summary>
     void Start()
     {
@@ -23,9 +22,9 @@ public class BtnCommands : MonoBehaviour
     }
 
     /// <summary>
-    /// This method loads a scene with its specific name;
+    /// This method loads a scene with its specific name.
     /// </summary>
-    /// <param name="sceneName">Name of the scene then will load;</param>
+    /// <param name="sceneName">Name of the scene then will load.</param>
     public void GoToScene (string sceneName) 
     {
         soundController.ButtonSound();
@@ -33,7 +32,7 @@ public class BtnCommands : MonoBehaviour
     }
     
     /// <summary>
-    /// This method identifies the current scene and if the player wants to, he can play it again;
+    /// This method identifies the current scene and if the player wants to, he can play it again.
     /// </summary>
     public void PlayAgain()
     {
@@ -42,10 +41,4 @@ public class BtnCommands : MonoBehaviour
 
         if(sceneID != 0) SceneManager.LoadScene(sceneID.ToString());
     }
-
-    /// <summary>
-    /// This method can turn on or turn off a panel;
-    /// </summary>
-    /// <param name="onOff">Clicking the button, activates the disabled panel and deactivates the enabled panel</param>
-   
 }

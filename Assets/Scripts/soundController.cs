@@ -7,6 +7,7 @@ public class SoundController : MonoBehaviour
     public AudioSource audioSong, audioFX;
     public AudioClip correctSound, wrongSound, buttonSound, threeStars;
     public AudioClip [] songs;
+
     
     void Awake()
     {

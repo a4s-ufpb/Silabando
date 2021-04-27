@@ -9,11 +9,17 @@ using UnityEngine.EventSystems;
 using UnityEngine.SceneManagement;
 
 /// <summary>
-/// This class configure the mode of the game, the questions and answers;
+/// This class configure the mode of the game, the questions and answers.
 /// </summary>
 public class GameMode : MonoBehaviour
 {
 
+    /// <summary>
+    /// All headers are part of the game mode configuration at each level.
+    /// Some are responsible for the game's objects and others are responsible 
+    /// for configuring the alternatives and options of the game.
+    /// </summary>
+    
     [Header ("GAME MODE")]
     public bool questionsWithImages;
     public bool optionsWithImages;
@@ -109,8 +115,9 @@ public class GameMode : MonoBehaviour
         panels[0].SetActive(true);
         panels[1].SetActive(false);
     }
+
     /// <summary>
-    /// This function is responsable for play the audio of the word on challenge "Sílabas".
+    /// This function is responsible for play the audio of the word on challenge "Sílabas".
     /// </summary>
     public void PlayButtonSound()
     {
@@ -118,7 +125,7 @@ public class GameMode : MonoBehaviour
     }
 
     /// <summary>
-    /// This function is responsable for update the time bar if the game mode is configured to play with time.
+    /// This function is responsible for update the time bar if the game mode is configured to play with time.
     /// </summary>
     void Update()
     {
@@ -129,11 +136,10 @@ public class GameMode : MonoBehaviour
 
             if (countTime >= timeToAnswer) NextQuestion();
         }
-        
     }
 
     /// <summary>
-    /// This function ís responsable for create a list of questions and verify if the question is text or image.
+    /// This function ís responsible for create a list of questions and verify if the question is text or image.
     /// </summary>   
     public void CreateQuestionsList() 
     {
@@ -165,7 +171,7 @@ public class GameMode : MonoBehaviour
     }
 
     /// <summary>
-    /// This function is responsable for process the answer of the player.
+    /// This function is responsible for process the answer of the player.
     /// </summary>
     /// <param name="option">Configure the buttons of options to check the correct answer.</param>
     public void Answer (string option) 
@@ -218,7 +224,7 @@ public class GameMode : MonoBehaviour
     }
 
     /// <summary>
-    /// This funcion is responsable for complete the word on challenge "Sílabas"
+    /// This funcion is responsible for complete the word on challenge "Sílabas".
     /// </summary>
     void CompleteWord()
     {
@@ -230,7 +236,7 @@ public class GameMode : MonoBehaviour
     }
 
     /// <summary>
-    /// This function call the next question
+    /// This function call the next question.
     /// </summary>
     public void NextQuestion()
     {
@@ -252,11 +258,10 @@ public class GameMode : MonoBehaviour
         {
             CalculeFinalScore();
         }
-
     }
 
     /// <summary>
-    /// This function controls the time bar
+    /// This function controls the time bar.
     /// </summary>
     void ControlTimeBar ()
     {
@@ -274,7 +279,7 @@ public class GameMode : MonoBehaviour
     }
 
     /// <summary>
-    /// This functions is the responsable for calculate the final score of the level
+    /// This functions is the responsible for calculate the final score of the level.
     /// </summary>
     void CalculeFinalScore() 
     {
@@ -296,21 +301,18 @@ public class GameMode : MonoBehaviour
         panels[1].SetActive(true);
 
         soundController.Stars();
-
     }
     /// <summary>
-    /// Wait any seconds to call another question
+    /// Wait any seconds to call another question.
     /// </summary>
-    /// <returns></returns>
     IEnumerator WaitNext()
     {
         yield return new WaitForSeconds(0.5f);
     }
     
     /// <summary>
-    /// This funcion shows the button flashing when the questions is correct or wrong
+    /// This funcion shows the button flashing when the questions is correct or wrong.
     /// </summary>
-    /// <returns></returns>
     IEnumerator CorrectOption () 
     {
         for (int i = 0; i < qttTimesOfButtonFlashing; i++)
@@ -329,5 +331,4 @@ public class GameMode : MonoBehaviour
 
         NextQuestion();
     }
- 
 }
