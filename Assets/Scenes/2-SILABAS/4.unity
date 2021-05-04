@@ -200,7 +200,7 @@ MonoBehaviour:
     m_HighlightedColor: {r: 1, g: 1, b: 1, a: 1}
     m_PressedColor: {r: 1, g: 1, b: 1, a: 1}
     m_SelectedColor: {r: 0.47843137, g: 0.6784314, b: 0.8980392, a: 1}
-    m_DisabledColor: {r: 0.78431374, g: 0.78431374, b: 0.78431374, a: 0.57254905}
+    m_DisabledColor: {r: 0.67058825, g: 0.67058825, b: 0.67058825, a: 1}
     m_ColorMultiplier: 1
     m_FadeDuration: 0.1
   m_SpriteState:
@@ -392,7 +392,7 @@ GameObject:
   - component: {fileID: 183631825}
   - component: {fileID: 183631824}
   m_Layer: 5
-  m_Name: BtnLevels
+  m_Name: BtnPlayAgain
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1602,7 +1602,7 @@ GameObject:
   - component: {fileID: 991041560}
   - component: {fileID: 991041559}
   m_Layer: 5
-  m_Name: BtnPlayAgain
+  m_Name: BtnNext
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1694,6 +1694,17 @@ MonoBehaviour:
           m_IntArgument: 0
           m_FloatArgument: 0
           m_StringArgument: Tela 3.1
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 1432512605}
+        m_MethodName: Pause
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
 --- !u!114 &991041561
@@ -1897,8 +1908,8 @@ MonoBehaviour:
     m_NormalColor: {r: 1, g: 1, b: 1, a: 1}
     m_HighlightedColor: {r: 1, g: 1, b: 1, a: 1}
     m_PressedColor: {r: 1, g: 1, b: 1, a: 1}
-    m_SelectedColor: {r: 0.47843137, g: 0.6784314, b: 0.8980392, a: 1}
-    m_DisabledColor: {r: 0.78431374, g: 0.78431374, b: 0.78431374, a: 0.5019608}
+    m_SelectedColor: {r: 0.47770557, g: 0.67561084, b: 0.8962264, a: 1}
+    m_DisabledColor: {r: 0.6698113, g: 0.6698113, b: 0.6698113, a: 1}
     m_ColorMultiplier: 1
     m_FadeDuration: 0.1
   m_SpriteState:
@@ -2146,8 +2157,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   questionsWithImages: 0
   optionsWithImages: 0
-  playWithTime: 1
-  timeToAnswer: 30
+  playWithTime: 0
+  timeToAnswer: 0
   textQuestion: {fileID: 1878576406}
   answerText: {fileID: 1607433817}
   questionImage: {fileID: 0}
@@ -2162,8 +2173,8 @@ MonoBehaviour:
   - {fileID: 1316295699}
   - {fileID: 1815331233}
   - {fileID: 78730877}
-  colorRightQuestion: {r: 0.38470095, g: 0.8584906, b: 0.42698008, a: 1}
-  colorWrongQuestion: {r: 0.9245283, g: 0.43173724, b: 0.43173724, a: 1}
+  colorRightQuestion: {r: 0.38470095, g: 0.8584906, b: 0.42745098, a: 1}
+  colorWrongQuestion: {r: 0.9245283, g: 0.43173724, b: 0.43137255, a: 1}
   usingOptions: 1
   showCorrect: 1
   qttTimesOfButtonFlashing: 5
@@ -2180,21 +2191,21 @@ MonoBehaviour:
   - "CA_ _N\xC9"
   questionsImage: []
   optionA:
+  - FO
   - FA
-  - FE
   - FU
   optionB:
-  - FO
+  - FE
   - FU
-  - FA
+  - FI
   optionC:
   - FU
-  - FI
-  - FI
+  - FE
+  - FO
   optionWithImageA: []
   optionWithImageB: []
   correct:
-  - B
+  - A
   - B
   - A
   fillCorrect:
@@ -2203,8 +2214,8 @@ MonoBehaviour:
   - "CAFUN\xC9"
   audioQuestion:
   - {fileID: 8300000, guid: 81d71118d6cc86e44a9fbe0cb5802726, type: 3}
-  - {fileID: 8300000, guid: e28b4b66a928a1a4398125279b46fa7e, type: 3}
   - {fileID: 8300000, guid: b0c92ee65f283d64a9c09781d134e635, type: 3}
+  - {fileID: 8300000, guid: e28b4b66a928a1a4398125279b46fa7e, type: 3}
 --- !u!82 &1432512605
 AudioSource:
   m_ObjectHideFlags: 0
@@ -2812,7 +2823,7 @@ MonoBehaviour:
     m_HighlightedColor: {r: 1, g: 1, b: 1, a: 1}
     m_PressedColor: {r: 1, g: 1, b: 1, a: 1}
     m_SelectedColor: {r: 0.47843137, g: 0.6784314, b: 0.8980392, a: 1}
-    m_DisabledColor: {r: 0.78431374, g: 0.78431374, b: 0.78431374, a: 0.5019608}
+    m_DisabledColor: {r: 0.67058825, g: 0.67058825, b: 0.67058825, a: 1}
     m_ColorMultiplier: 1
     m_FadeDuration: 0.1
   m_SpriteState:

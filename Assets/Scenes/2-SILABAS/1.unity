@@ -392,7 +392,7 @@ GameObject:
   - component: {fileID: 183631825}
   - component: {fileID: 183631824}
   m_Layer: 5
-  m_Name: BtnLevels
+  m_Name: BtnPlayAgain
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1602,7 +1602,7 @@ GameObject:
   - component: {fileID: 991041560}
   - component: {fileID: 991041559}
   m_Layer: 5
-  m_Name: BtnPlayAgain
+  m_Name: BtnNext
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1694,6 +1694,17 @@ MonoBehaviour:
           m_IntArgument: 0
           m_FloatArgument: 0
           m_StringArgument: Tela 3.1
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 1432512605}
+        m_MethodName: Pause
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
 --- !u!114 &991041561
@@ -2146,8 +2157,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   questionsWithImages: 0
   optionsWithImages: 0
-  playWithTime: 1
-  timeToAnswer: 30
+  playWithTime: 0
+  timeToAnswer: 0
   textQuestion: {fileID: 1878576406}
   answerText: {fileID: 1607433817}
   questionImage: {fileID: 0}

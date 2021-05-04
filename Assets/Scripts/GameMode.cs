@@ -114,6 +114,7 @@ public class GameMode : MonoBehaviour
         questionValue = 10 / (float)questions.Length; 
         panels[0].SetActive(true);
         panels[1].SetActive(false);
+
     }
 
     /// <summary>
@@ -271,7 +272,7 @@ public class GameMode : MonoBehaviour
         }
         timePercentage = ((countTime - timeToAnswer) / timeToAnswer) * -1;
 
-        if (timePercentage < 0) 
+        if (float.IsNaN(timePercentage)) 
         { 
             timePercentage = 0;
         }
@@ -299,8 +300,7 @@ public class GameMode : MonoBehaviour
 
         panels[0].SetActive(false);
         panels[1].SetActive(true);
-
-        soundController.Stars();
+        soundController.Stars();        
     }
     /// <summary>
     /// Wait any seconds to call another question.

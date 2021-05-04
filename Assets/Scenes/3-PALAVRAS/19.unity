@@ -2252,25 +2252,25 @@ MonoBehaviour:
   - "_ _POP\xD3TAMO"
   - _ _TEL
   questionsImage:
-  - {fileID: -3677375329689571568, guid: 302083389f21dda4098ec2f38f553032, type: 3}
-  - {fileID: 5733215692447568604, guid: 302083389f21dda4098ec2f38f553032, type: 3}
-  - {fileID: -7971405352464638331, guid: 302083389f21dda4098ec2f38f553032, type: 3}
+  - {fileID: -2503844328587842909, guid: 302083389f21dda4098ec2f38f553032, type: 3}
+  - {fileID: -6748238017410382081, guid: 302083389f21dda4098ec2f38f553032, type: 3}
+  - {fileID: -1340800784625473181, guid: 302083389f21dda4098ec2f38f553032, type: 3}
   optionA:
-  - ABACATE
-  - ABELHA
-  - "\xC1RVORE"
+  - GELO
+  - GOIABA
+  - GALINHA
   optionB:
-  - "\xC1GUA"
-  - ALICATE
-  - "AVI\xC3O"
+  - GATO
+  - GORDO
+  - GIRAFA
   optionC:
-  - ABACAXI
-  - ANEL
-  - APITO
+  - GIZ
+  - GAIOLA
+  - GARI
   optionWithImageA: []
   optionWithImageB: []
   correct:
-  - C
+  - B
   - A
   - B
   fillCorrect:

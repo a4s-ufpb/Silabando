@@ -2252,27 +2252,27 @@ MonoBehaviour:
   - "_ _POP\xD3TAMO"
   - _ _TEL
   questionsImage:
-  - {fileID: -3677375329689571568, guid: 302083389f21dda4098ec2f38f553032, type: 3}
-  - {fileID: 5733215692447568604, guid: 302083389f21dda4098ec2f38f553032, type: 3}
-  - {fileID: -7971405352464638331, guid: 302083389f21dda4098ec2f38f553032, type: 3}
+  - {fileID: -216813849203293576, guid: 302083389f21dda4098ec2f38f553032, type: 3}
+  - {fileID: 3843914120438339630, guid: 302083389f21dda4098ec2f38f553032, type: 3}
+  - {fileID: -6779390322756679017, guid: 302083389f21dda4098ec2f38f553032, type: 3}
   optionA:
-  - ABACATE
-  - ABELHA
-  - "\xC1RVORE"
+  - DEDO
+  - DISCO
+  - DOIS
   optionB:
-  - "\xC1GUA"
-  - ALICATE
-  - "AVI\xC3O"
+  - DOCE
+  - DENTE
+  - DEZ
   optionC:
-  - ABACAXI
-  - ANEL
-  - APITO
+  - DADO
+  - DOZE
+  - DIA
   optionWithImageA: []
   optionWithImageB: []
   correct:
   - C
-  - A
   - B
+  - A
   fillCorrect:
   - HORA
   - "HIPOP\xD3TAMO"
