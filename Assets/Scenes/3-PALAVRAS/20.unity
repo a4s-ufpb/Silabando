@@ -2219,8 +2219,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   questionsWithImages: 1
   optionsWithImages: 0
-  playWithTime: 0
-  timeToAnswer: 0
+  playWithTime: 1
+  timeToAnswer: 20
   textQuestion: {fileID: 0}
   answerText: {fileID: 0}
   questionImage: {fileID: 632007564}

@@ -2193,7 +2193,7 @@ MonoBehaviour:
   optionA:
   - CE
   - CO
-  - CE
+  - CI
   optionB:
   - CI
   - CE
@@ -2201,13 +2201,13 @@ MonoBehaviour:
   optionC:
   - CA
   - CI
-  - CI
+  - CE
   optionWithImageA: []
   optionWithImageB: []
   correct:
   - C
   - A
-  - C
+  - B
   fillCorrect:
   - BOCA
   - SACOLA
