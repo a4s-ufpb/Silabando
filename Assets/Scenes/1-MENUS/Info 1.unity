@@ -194,7 +194,7 @@ MonoBehaviour:
     pelos professores:\nAyla Dantas\nCarlos Silveira\n\nJogo desenvolvido pelas alunas
     de Sistemas de Informa\xE7\xE3o do Campus IV - Rio Tinto:\nJeane Cardoso dos
     Santos - Prot\xF3tipo e desenvolvimento\nJoyce Sousa dos Santos - Ilustra\xE7\xF5es\n\nJogo
-    baseado no Game Quiz do professor Patrick Muniz.\n\nVers\xE3o: 2020.12.01"
+    baseado no Game Quiz do professor Patrick Muniz.\n\nVers\xE3o: 2021.05.02"
 --- !u!222 &387170034
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -943,7 +943,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 1}
   m_AnchorMax: {x: 0.5, y: 1}
-  m_AnchoredPosition: {x: 0, y: -137}
+  m_AnchoredPosition: {x: 0, y: -108}
   m_SizeDelta: {x: 350.28314, y: 71.77338}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &2035722811
