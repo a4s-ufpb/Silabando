@@ -9,11 +9,14 @@ EditorBuildSettings:
     path: Assets/Scenes/1-MENUS/Splash.unity
     guid: c383a0e0fce21b54c9e9fe41c591afb8
   - enabled: 1
-    path: Assets/Scenes/1-MENUS/Info.unity
-    guid: 6370ad99c60e58946bf250f0a476d5e5
-  - enabled: 1
     path: Assets/Scenes/1-MENUS/Tela 1.unity
     guid: 2a4f6791e3676fd4c8f46d90e841e2ee
+  - enabled: 1
+    path: Assets/Scenes/1-MENUS/Info 1.unity
+    guid: bdae0f7dc8d48574c8155fa54f73c549
+  - enabled: 1
+    path: Assets/Scenes/1-MENUS/Info 2.unity
+    guid: 6370ad99c60e58946bf250f0a476d5e5
   - enabled: 1
     path: Assets/Scenes/1-MENUS/Tela 2.unity
     guid: 15768eb43d6367348b1c4b2a124f9b4b

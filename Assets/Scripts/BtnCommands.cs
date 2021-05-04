@@ -31,11 +31,11 @@ public class BtnCommands : MonoBehaviour
     void Update()
     {
         if(Input.GetKeyDown (KeyCode.Escape)) {
-            if (index == 3 || index == 4) SceneManager.LoadScene(index-1);
-            else if (index == 5) SceneManager.LoadScene(index-2);
-            else if (index == 6) SceneManager.LoadScene(index-3);
-            else if (index == 1) SceneManager.LoadScene("Tela 1");
-            else if (index == 2) Application.Quit();
+            if (index == 3 || index == 2 || index == 5) SceneManager.LoadScene(index-1);
+            else if (index == 4) SceneManager.LoadScene(index-3);
+            else if (index == 6) SceneManager.LoadScene(index-2);
+            else if (index == 7) SceneManager.LoadScene(index-3);
+            else if (index == 1) Application.Quit();
         }
     }
  
