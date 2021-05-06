@@ -12,6 +12,12 @@ EditorBuildSettings:
     path: Assets/Scenes/1-MENUS/Tela 1.unity
     guid: 2a4f6791e3676fd4c8f46d90e841e2ee
   - enabled: 1
+    path: Assets/Scenes/1-MENUS/Info 1.unity
+    guid: bdae0f7dc8d48574c8155fa54f73c549
+  - enabled: 1
+    path: Assets/Scenes/1-MENUS/Info 2.unity
+    guid: 6370ad99c60e58946bf250f0a476d5e5
+  - enabled: 1
     path: Assets/Scenes/1-MENUS/Tela 2.unity
     guid: 15768eb43d6367348b1c4b2a124f9b4b
   - enabled: 1
@@ -24,24 +30,81 @@ EditorBuildSettings:
     path: Assets/Scenes/1-MENUS/Tela 3.3.unity
     guid: 574c94efd1d7e764ebfd90459c4cc09f
   - enabled: 1
-    path: Assets/Scenes/1-MENUS/Info.unity
-    guid: 6370ad99c60e58946bf250f0a476d5e5
-  - enabled: 1
-    path: Assets/Scenes/3-PALAVRAS/13.unity
-    guid: 3feb9fcc44b0e374a9daf8c14f401000
-  - enabled: 1
-    path: Assets/Scenes/3-PALAVRAS/5.unity
-    guid: 1aba3467bd906ec4cb808ea8983424e2
-  - enabled: 1
     path: Assets/Scenes/2-SILABAS/1.unity
     guid: 0a865d4eca1d18a48914a1928af26222
-  - enabled: 0
-    path: 
-    guid: 00000000000000000000000000000000
-  - enabled: 0
-    path: 
-    guid: 00000000000000000000000000000000
-  - enabled: 0
-    path: 
-    guid: 00000000000000000000000000000000
+  - enabled: 1
+    path: Assets/Scenes/2-SILABAS/2.unity
+    guid: 017a5983c1ca3be44b00cc65783ab2b0
+  - enabled: 1
+    path: Assets/Scenes/2-SILABAS/3.unity
+    guid: 97598a3880bcecc4682f5c1dd62e08ab
+  - enabled: 1
+    path: Assets/Scenes/2-SILABAS/4.unity
+    guid: 873d2c9302c62694f93951baa16b0ff1
+  - enabled: 1
+    path: Assets/Scenes/2-SILABAS/5.unity
+    guid: 5f6ad551e0bdbae4ea2d7600d2657309
+  - enabled: 1
+    path: Assets/Scenes/2-SILABAS/6.unity
+    guid: 7f6f3538b1b3d8749a2c2db6e8be1557
+  - enabled: 1
+    path: Assets/Scenes/2-SILABAS/7.unity
+    guid: 1d92a434d4b1eaf4e9aaa0d892625f87
+  - enabled: 1
+    path: Assets/Scenes/2-SILABAS/8.unity
+    guid: 2e6d9917cd27c6e4b8f3553af4709ff5
+  - enabled: 1
+    path: Assets/Scenes/2-SILABAS/9.unity
+    guid: e85d5ff80dd677d4aa2f12ba927f1fb9
+  - enabled: 1
+    path: Assets/Scenes/2-SILABAS/10.unity
+    guid: e7d03bb75bbc230469fb640e88d001d4
+  - enabled: 1
+    path: Assets/Scenes/2-SILABAS/11.unity
+    guid: ea778093220793a46ba22a68291dba1a
+  - enabled: 1
+    path: Assets/Scenes/2-SILABAS/12.unity
+    guid: 2d647c11883c4df4a8c0dc6e4d56de1b
+  - enabled: 1
+    path: Assets/Scenes/3-PALAVRAS/13.unity
+    guid: d11814bdff5e282469a836883228ea97
+  - enabled: 1
+    path: Assets/Scenes/3-PALAVRAS/14.unity
+    guid: 9d9c595998e2df6458f00ab2340183d5
+  - enabled: 1
+    path: Assets/Scenes/3-PALAVRAS/15.unity
+    guid: d9dc44225742e564aa39628e7bc42f78
+  - enabled: 1
+    path: Assets/Scenes/3-PALAVRAS/16.unity
+    guid: 47c375bd427a7a74584dadf8e6a4eb44
+  - enabled: 1
+    path: Assets/Scenes/3-PALAVRAS/17.unity
+    guid: e920c40594f404b40871e5dfadd54f4e
+  - enabled: 1
+    path: Assets/Scenes/3-PALAVRAS/18.unity
+    guid: e21851d99bfbcc849a605505ea9b5f60
+  - enabled: 1
+    path: Assets/Scenes/3-PALAVRAS/19.unity
+    guid: 5ffb1b410d824d94eb90d26ae6ac42b8
+  - enabled: 1
+    path: Assets/Scenes/3-PALAVRAS/20.unity
+    guid: 3fd0c497c1c8b694ba59289f3b52ded2
+  - enabled: 1
+    path: Assets/Scenes/4-FRASES/21.unity
+    guid: 79bdef442d1e2424bb0cf37ac352d41a
+  - enabled: 1
+    path: Assets/Scenes/4-FRASES/22.unity
+    guid: 69170d09ba6e54942bd550960f7d55cf
+  - enabled: 1
+    path: Assets/Scenes/4-FRASES/23.unity
+    guid: 9497f841cc5db334b8c7d7c57153ad47
+  - enabled: 1
+    path: Assets/Scenes/4-FRASES/24.unity
+    guid: 95e0be840fd93fc40a803fc4de0010bb
+  - enabled: 1
+    path: Assets/Scenes/4-FRASES/25.unity
+    guid: 0a46a96134c274d4099b35e5f49bc1ed
+  - enabled: 1
+    path: Assets/Scenes/4-FRASES/26.unity
+    guid: 6b5981e387e51e547868f917bcbb5e9a
   m_configObjects: {}
