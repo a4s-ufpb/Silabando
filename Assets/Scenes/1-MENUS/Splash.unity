@@ -917,10 +917,10 @@ MonoBehaviour:
   audioFX: {fileID: 164582690}
   correctSound: {fileID: 8300000, guid: fe27989719cfcf94dbeafe6195547225, type: 3}
   wrongSound: {fileID: 8300000, guid: c772c6edd2da8044f8050cf9653f2bb6, type: 3}
-  buttonSound: {fileID: 8300000, guid: c995b3510a9ff4b41b60b2fa0d6ed2e3, type: 3}
+  buttonSound: {fileID: 8300000, guid: 8c0eaea58bb1be94c83944da725861c2, type: 3}
   threeStars: {fileID: 8300000, guid: 4c54890f4581c504896de20c8b95a4a0, type: 3}
   songs:
-  - {fileID: 8300000, guid: 83dcfcb5897ad3a47a2950987b567f8d, type: 3}
+  - {fileID: 8300000, guid: b5d200f8d3fe2ff4f8396489669c54dc, type: 3}
 --- !u!82 &1885457270
 AudioSource:
   m_ObjectHideFlags: 0
