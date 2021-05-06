@@ -2,42 +2,61 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class soundController : MonoBehaviour
+public class SoundController : MonoBehaviour
 {
+    public AudioSource audioSong, audioFX;
+    public AudioClip correctSound, wrongSound, buttonSound, threeStars;
+    public AudioClip [] songs;
 
-    public AudioSource audioMusic, audioFX;
-    public AudioClip somAcerto, somErro, somBotao, vinheta3Estrelas;
     
     void Awake()
     {
         DontDestroyOnLoad(this.gameObject);
     }   
+
     void Start()
     {
-
-        audioMusic.Play();
+        LoadPreferences();
+        audioSong.clip = songs[0];
+        audioSong.Play();
     }
-
-    public void playAcerto()
+    public void PlayAudioRightQuestion()
     {
-        audioFX.PlayOneShot(somAcerto);
-
+        audioFX.PlayOneShot(correctSound);
     }
 
-    public void playErro()
+    public void PlayAudioWrongQuestion()
     {
-        
-        audioFX.PlayOneShot(somErro);
+        audioFX.PlayOneShot(wrongSound);
     }
+
+    public void ButtonSound()
+    {
+        audioFX.PlayOneShot(buttonSound);
+    }
+
+    public void Stars()
+    {
+        audioFX.PlayOneShot(threeStars);
+    }
+
+/// <summary>
+/// Verify if have registries of initial values of coonfiguration and if don't have, save the initial values;
+/// </summary>
+    void LoadPreferences()
+    {
     
-    public void playbutton()
-    {
-        audioFX.PlayOneShot(somBotao);
-    }
+        if(PlayerPrefs.GetInt("defaultValue") == 0)
+        {
+            PlayerPrefs.SetInt("defaultValue", 1);
+            PlayerPrefs.SetFloat("volumeSong", 1);
+            PlayerPrefs.SetFloat("volumeEffects", 1);
+        }
+        
+        float volumeSong = PlayerPrefs.GetFloat("volumeSong");
+        float volumeEffects = PlayerPrefs.GetFloat("volumeEffects");
 
-    public void estrelas()
-    {
-        audioFX.PlayOneShot(vinheta3Estrelas);
+        audioSong.volume = volumeSong;
+        audioFX.volume = volumeEffects;
     }
-
 }

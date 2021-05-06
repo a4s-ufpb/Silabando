@@ -259,7 +259,7 @@ GameObject:
   - component: {fileID: 307830600}
   - component: {fileID: 307830601}
   m_Layer: 0
-  m_Name: music
+  m_Name: Song
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -838,6 +838,7 @@ GameObject:
   - component: {fileID: 1432512603}
   - component: {fileID: 1432512602}
   - component: {fileID: 1432512604}
+  - component: {fileID: 1432512605}
   m_Layer: 0
   m_Name: GameController
   m_TagString: Untagged
@@ -857,8 +858,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b6c965934d1140f43b164ffcb6a33705, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  painel1: {fileID: 0}
-  painel2: {fileID: 0}
 --- !u!4 &1432512603
 Transform:
   m_ObjectHideFlags: 0
@@ -871,7 +870,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 4
+  m_RootOrder: 5
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &1432512604
 MonoBehaviour:
@@ -885,7 +884,20 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ca5d0d9a5ebdbbd4bb9023a097f367c9, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  tempoEspera: 2
+  waitTime: 3
+--- !u!114 &1432512605
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1432512601}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 10ee53b759e6ab44cb82e4d41f7d664d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  myFont: {fileID: 0}
 --- !u!1 &1885457268
 GameObject:
   m_ObjectHideFlags: 0
@@ -916,12 +928,14 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f821b6a7442c6ea44b64f99bf6d9df22, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  audioMusic: {fileID: 1885457270}
+  audioSong: {fileID: 307830601}
   audioFX: {fileID: 164582690}
-  somAcerto: {fileID: 8300000, guid: fe27989719cfcf94dbeafe6195547225, type: 3}
-  somErro: {fileID: 8300000, guid: c772c6edd2da8044f8050cf9653f2bb6, type: 3}
-  somBotao: {fileID: 8300000, guid: a4c65c1d49bbd2543b14c9a8a5623c79, type: 3}
-  vinheta3Estrelas: {fileID: 8300000, guid: 183c1ffc6a9c15f42b5a6435ba5808e0, type: 3}
+  correctSound: {fileID: 8300000, guid: fe27989719cfcf94dbeafe6195547225, type: 3}
+  wrongSound: {fileID: 8300000, guid: c772c6edd2da8044f8050cf9653f2bb6, type: 3}
+  buttonSound: {fileID: 8300000, guid: a4c65c1d49bbd2543b14c9a8a5623c79, type: 3}
+  threeStars: {fileID: 8300000, guid: 050f95a638a7a3a41982d1926b6727d2, type: 3}
+  songs:
+  - {fileID: 8300000, guid: b0b17367a857af243a59192232670b33, type: 3}
 --- !u!82 &1885457270
 AudioSource:
   m_ObjectHideFlags: 0
@@ -1032,7 +1046,7 @@ Transform:
   - {fileID: 307830600}
   - {fileID: 164582689}
   m_Father: {fileID: 0}
-  m_RootOrder: 5
+  m_RootOrder: 4
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &2035722809
 GameObject:
