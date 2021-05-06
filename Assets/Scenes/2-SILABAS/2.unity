@@ -2213,9 +2213,9 @@ MonoBehaviour:
   - SACOLA
   - COCADA
   audioQuestion:
-  - {fileID: 8300000, guid: 81d71118d6cc86e44a9fbe0cb5802726, type: 3}
-  - {fileID: 8300000, guid: b0c92ee65f283d64a9c09781d134e635, type: 3}
-  - {fileID: 8300000, guid: e28b4b66a928a1a4398125279b46fa7e, type: 3}
+  - {fileID: 8300000, guid: 64226b0b5e6c4c048864948fa59d8989, type: 3}
+  - {fileID: 8300000, guid: 3932cfcbf17b2344c8429b62beea871e, type: 3}
+  - {fileID: 8300000, guid: 0308f802568d46b41b94128767400c06, type: 3}
 --- !u!82 &1432512605
 AudioSource:
   m_ObjectHideFlags: 0

@@ -2213,9 +2213,9 @@ MonoBehaviour:
   - URUBU
   - BELEZA
   audioQuestion:
-  - {fileID: 8300000, guid: 81d71118d6cc86e44a9fbe0cb5802726, type: 3}
-  - {fileID: 8300000, guid: b0c92ee65f283d64a9c09781d134e635, type: 3}
-  - {fileID: 8300000, guid: e28b4b66a928a1a4398125279b46fa7e, type: 3}
+  - {fileID: 8300000, guid: 8241ac442c57d184a86c81bb7a320870, type: 3}
+  - {fileID: 8300000, guid: b88b5e6a898eef1439ba737aff610139, type: 3}
+  - {fileID: 8300000, guid: 71e6dc2c7935fc54fba74f7e7154ce34, type: 3}
 --- !u!82 &1432512605
 AudioSource:
   m_ObjectHideFlags: 0

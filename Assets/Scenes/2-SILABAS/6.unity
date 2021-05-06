@@ -2213,9 +2213,9 @@ MonoBehaviour:
   - HOTEL
   - HUMANO
   audioQuestion:
-  - {fileID: 8300000, guid: 81d71118d6cc86e44a9fbe0cb5802726, type: 3}
-  - {fileID: 8300000, guid: b0c92ee65f283d64a9c09781d134e635, type: 3}
-  - {fileID: 8300000, guid: e28b4b66a928a1a4398125279b46fa7e, type: 3}
+  - {fileID: 8300000, guid: 123542ce29ccfc24eb359a233baa8b1f, type: 3}
+  - {fileID: 8300000, guid: 7fd8a9ff1895f394f9629550629759b9, type: 3}
+  - {fileID: 8300000, guid: e6e1e0a457e0c1440ac398ff6f86360a, type: 3}
 --- !u!82 &1432512605
 AudioSource:
   m_ObjectHideFlags: 0

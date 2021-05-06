@@ -2213,9 +2213,9 @@ MonoBehaviour:
   - CORUJA
   - CARECA
   audioQuestion:
-  - {fileID: 8300000, guid: 81d71118d6cc86e44a9fbe0cb5802726, type: 3}
-  - {fileID: 8300000, guid: b0c92ee65f283d64a9c09781d134e635, type: 3}
-  - {fileID: 8300000, guid: e28b4b66a928a1a4398125279b46fa7e, type: 3}
+  - {fileID: 8300000, guid: 384c5e96a24481e4888bcdc04778bbe1, type: 3}
+  - {fileID: 8300000, guid: 584d8a0ec7d3811459c151b373df87d7, type: 3}
+  - {fileID: 8300000, guid: f2d10731fa791b743a98749d2e32bdbe, type: 3}
 --- !u!82 &1432512605
 AudioSource:
   m_ObjectHideFlags: 0

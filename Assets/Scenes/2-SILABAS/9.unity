@@ -2213,9 +2213,9 @@ MonoBehaviour:
   - NAVIO
   - TELEFONE
   audioQuestion:
-  - {fileID: 8300000, guid: 81d71118d6cc86e44a9fbe0cb5802726, type: 3}
-  - {fileID: 8300000, guid: b0c92ee65f283d64a9c09781d134e635, type: 3}
-  - {fileID: 8300000, guid: e28b4b66a928a1a4398125279b46fa7e, type: 3}
+  - {fileID: 8300000, guid: fb90560eed0d6c249b5446efbec1ab7c, type: 3}
+  - {fileID: 8300000, guid: c60a487a69b47cc42b379ef3a29f4342, type: 3}
+  - {fileID: 8300000, guid: 1540a8281fb9a9a47a396fbaac0027aa, type: 3}
 --- !u!82 &1432512605
 AudioSource:
   m_ObjectHideFlags: 0

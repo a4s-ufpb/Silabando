@@ -2213,9 +2213,9 @@ MonoBehaviour:
   - PANELA
   - SAPECA
   audioQuestion:
-  - {fileID: 8300000, guid: 81d71118d6cc86e44a9fbe0cb5802726, type: 3}
-  - {fileID: 8300000, guid: b0c92ee65f283d64a9c09781d134e635, type: 3}
-  - {fileID: 8300000, guid: e28b4b66a928a1a4398125279b46fa7e, type: 3}
+  - {fileID: 8300000, guid: 3ec3d66fa9fed6f4d92b5e29db1e6cbb, type: 3}
+  - {fileID: 8300000, guid: 9fb85e1c9921d3f48a745b023706f8d1, type: 3}
+  - {fileID: 8300000, guid: 08b0c9ef22ae9314496e853f436f94f5, type: 3}
 --- !u!82 &1432512605
 AudioSource:
   m_ObjectHideFlags: 0
