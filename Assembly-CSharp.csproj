@@ -61,10 +61,10 @@
      <Compile Include="Assets\Scripts\MoveOffset.cs" />
      <Compile Include="Assets\Scripts\Options.cs" />
      <Compile Include="Assets\Scripts\QuitGame.cs" />
-     <Compile Include="Assets\Scripts\SoundController.cs" />
      <Compile Include="Assets\Scripts\Splash.cs" />
      <Compile Include="Assets\Scripts\ThemeInfo.cs" />
      <Compile Include="Assets\Scripts\ThemeScene.cs" />
+     <Compile Include="Assets\Scripts\soundController.cs" />
      <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\Benchmark01.cs" />
      <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\Benchmark01_UGUI.cs" />
      <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\Benchmark02.cs" />
