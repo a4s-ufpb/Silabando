@@ -46,7 +46,7 @@ public class Options : MonoBehaviour
         
         PlayerPrefs.DeleteAll();
 
-        PlayerPrefs.SetInt("defaultValue", 1);
+        PlayerPrefs.SetFloat("defaultValue", 0.5f);
         PlayerPrefs.SetFloat("volumeSong", volumeSong);
         PlayerPrefs.SetFloat("volumeEffects", volumeEffects);
     }    

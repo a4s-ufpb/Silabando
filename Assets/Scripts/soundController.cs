@@ -68,11 +68,11 @@ public class SoundController : MonoBehaviour
     void LoadPreferences()
     {
     
-        if(PlayerPrefs.GetInt("defaultValue") == 0)
+        if(PlayerPrefs.GetFloat("defaultValue") == 0)
         {
-            PlayerPrefs.SetInt("defaultValue", 1);
-            PlayerPrefs.SetFloat("volumeSong", 1);
-            PlayerPrefs.SetFloat("volumeEffects", 1);
+            PlayerPrefs.SetFloat("defaultValue", 0.3f);
+            PlayerPrefs.SetFloat("volumeSong", 0.3f);
+            PlayerPrefs.SetFloat("volumeEffects", 0.5f);
         }
         
         float volumeSong = PlayerPrefs.GetFloat("volumeSong");

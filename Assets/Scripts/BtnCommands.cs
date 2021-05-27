@@ -21,7 +21,7 @@ public class BtnCommands : MonoBehaviour
     void Start()
     {
         soundController = FindObjectOfType(typeof(SoundController)) as SoundController;
-        index = SceneManager.GetActiveScene().buildIndex;   
+        index = SceneManager.GetActiveScene().buildIndex; 
     
     }
 
@@ -37,6 +37,7 @@ public class BtnCommands : MonoBehaviour
             else if (index == 7) SceneManager.LoadScene(index-3);
             else if (index == 1) Application.Quit();
         }
+        PlayerPrefs.GetInt("pageID"); 
     }
  
     /// <summary>
@@ -47,7 +48,6 @@ public class BtnCommands : MonoBehaviour
     {
         soundController.ButtonSound();
         SceneManager.LoadScene(sceneName);
- 
     }
     
     /// <summary>

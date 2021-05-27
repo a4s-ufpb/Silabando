@@ -28,7 +28,7 @@ public class ThemeInfo : MonoBehaviour
     public int minPointsNecessary;
    
     [Header ("BUTTON CONFIGURATION")] 
-    public Text textThemeID;
+   // public Text textThemeID;
     public GameObject[] star;
 
     [Header ("STARS CONFIGURATION")] 
@@ -46,7 +46,7 @@ public class ThemeInfo : MonoBehaviour
         finalPoints = PlayerPrefs.GetInt("finalScore_" + themeID.ToString());
         themeScene = FindObjectOfType (typeof(ThemeScene)) as ThemeScene;
         Stars();
-        textThemeID.text = themeID.ToString();
+       // textThemeID.text = themeID.ToString();
         themeButton = GetComponent<Button>();
         VerifyMinPoints();
     }

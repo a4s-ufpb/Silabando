@@ -34,6 +34,7 @@ public class ThemeScene : MonoBehaviour
     /// <summary>
     /// This function is responsible for activating / deactivating the scene panels.
     /// </summary>
+    
     void OnOffPanelButtons()
     {
         buttonPlay.interactable = false;
@@ -69,8 +70,8 @@ public class ThemeScene : MonoBehaviour
         pageID += i;
 
         if (pageID < 0) pageID = themesPanels.Length - 1;
-        else if (pageID >= themesPanels.Length) pageID = 0;
 
+        else if (pageID >= themesPanels.Length) pageID = 0;
         buttonPlay.interactable = false;
     
         foreach (GameObject p in themesPanels) p.SetActive(false);
