@@ -4,7 +4,7 @@ using UnityEngine;
 using UnityEngine.UI;
 
 /// <summary>
-/// This class is responsible for quit the game.
+/// This class is responsible for clean the progreess of the game.
 /// </summary>
 public class PopUp : MonoBehaviour
 {
@@ -29,7 +29,7 @@ public class PopUp : MonoBehaviour
     }
 
     /// <summary>
-    /// This function ends the game.
+    /// This function clean all progress of the game.
     /// </summary>
     public void CleanAll ( ) 
     {
@@ -39,7 +39,7 @@ public class PopUp : MonoBehaviour
         
         PlayerPrefs.DeleteAll();
 
-        PlayerPrefs.SetFloat("defaultValue", 0.5f);
+        PlayerPrefs.SetFloat("defaultValue", 0.2f);
         PlayerPrefs.SetFloat("volumeSong", volumeSong);
         PlayerPrefs.SetFloat("volumeEffects", volumeEffects);
         panel.SetActive(false);

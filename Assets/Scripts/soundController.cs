@@ -70,8 +70,8 @@ public class SoundController : MonoBehaviour
     
         if(PlayerPrefs.GetFloat("defaultValue") == 0)
         {
-            PlayerPrefs.SetFloat("defaultValue", 0.3f);
-            PlayerPrefs.SetFloat("volumeSong", 0.3f);
+            PlayerPrefs.SetFloat("defaultValue", 0.2f);
+            PlayerPrefs.SetFloat("volumeSong", 0.2f);
             PlayerPrefs.SetFloat("volumeEffects", 0.5f);
         }
         
